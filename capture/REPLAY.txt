@@ -1,0 +1,4373 @@
+Frame 1251: 91 bytes on wire (728 bits), 91 bytes captured (728 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:01:40.694749000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906100.694749000 seconds
+    [Time delta from previous captured frame: 0.000141000 seconds]
+    [Time delta from previous displayed frame: 0.000141000 seconds]
+    [Time since reference or first frame: 1614.847262000 seconds]
+    Frame Number: 1251
+    Frame Length: 91 bytes (728 bits)
+    Capture Length: 91 bytes (728 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb:usbhid]
+USB URB
+    [Source: host]
+    [Destination: 1.93.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c65574010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x02, Direction: OUT
+        0... .... = Direction: OUT (0)
+        .... 0010 = Endpoint number: 2
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 64
+    [Response in: 1252]
+    [bInterfaceClass: HID (0x03)]
+HID Data: 000000000000000000000000000000000000000000000000000000000000000000000000…
+    Vendor Data: 00
+    Vendor Data: 00
+    Padding: 000000000000000000000000000000000000000000000000000000000000000000000000…
+
+Frame 1252: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:01:40.698979000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906100.698979000 seconds
+    [Time delta from previous captured frame: 0.004230000 seconds]
+    [Time delta from previous displayed frame: 0.004230000 seconds]
+    [Time since reference or first frame: 1614.851492000 seconds]
+    Frame Number: 1252
+    Frame Length: 27 bytes (216 bits)
+    Capture Length: 27 bytes (216 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: 1.93.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c65574010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x02, Direction: OUT
+        0... .... = Direction: OUT (0)
+        .... 0010 = Endpoint number: 2
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 0
+    [Request in: 1251]
+    [Time from request: 0.004230000 seconds]
+    [bInterfaceClass: HID (0x03)]
+
+Frame 1253: 91 bytes on wire (728 bits), 91 bytes captured (728 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:01:40.707093000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906100.707093000 seconds
+    [Time delta from previous captured frame: 0.008114000 seconds]
+    [Time delta from previous displayed frame: 0.008114000 seconds]
+    [Time since reference or first frame: 1614.859606000 seconds]
+    Frame Number: 1253
+    Frame Length: 91 bytes (728 bits)
+    Capture Length: 91 bytes (728 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb:usbhid]
+USB URB
+    [Source: host]
+    [Destination: 1.93.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c65574010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x02, Direction: OUT
+        0... .... = Direction: OUT (0)
+        .... 0010 = Endpoint number: 2
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 64
+    [Response in: 1254]
+    [bInterfaceClass: HID (0x03)]
+HID Data: 012d000001000000556e6e616d65642028496e7374616e63652023312900000000000000…
+    Vendor Data: 01
+    Vendor Data: 2d
+    Padding: 000001000000556e6e616d65642028496e7374616e636520233129000000000000000000…
+
+Frame 1254: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:01:40.714979000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906100.714979000 seconds
+    [Time delta from previous captured frame: 0.007886000 seconds]
+    [Time delta from previous displayed frame: 0.007886000 seconds]
+    [Time since reference or first frame: 1614.867492000 seconds]
+    Frame Number: 1254
+    Frame Length: 27 bytes (216 bits)
+    Capture Length: 27 bytes (216 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: 1.93.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c65574010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x02, Direction: OUT
+        0... .... = Direction: OUT (0)
+        .... 0010 = Endpoint number: 2
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 0
+    [Request in: 1253]
+    [Time from request: 0.007886000 seconds]
+    [bInterfaceClass: HID (0x03)]
+
+Frame 1255: 91 bytes on wire (728 bits), 91 bytes captured (728 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:01:40.718745000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906100.718745000 seconds
+    [Time delta from previous captured frame: 0.003766000 seconds]
+    [Time delta from previous displayed frame: 0.003766000 seconds]
+    [Time since reference or first frame: 1614.871258000 seconds]
+    Frame Number: 1255
+    Frame Length: 91 bytes (728 bits)
+    Capture Length: 91 bytes (728 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb:usbhid]
+USB URB
+    [Source: 1.93.1]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c7bb79010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x81, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0001 = Endpoint number: 1
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 64
+    [Request in: 1241]
+    [Time from request: 0.060114000 seconds]
+    [bInterfaceClass: HID (0x03)]
+HID Data: 012d000001000000556e6e616d65642028496e7374616e63652023312900000000000000…
+    Vendor Data: 01
+    Vendor Data: 2d
+    Padding: 000001000000556e6e616d65642028496e7374616e636520233129000000000000000000…
+
+Frame 1256: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:01:40.718758000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906100.718758000 seconds
+    [Time delta from previous captured frame: 0.000013000 seconds]
+    [Time delta from previous displayed frame: 0.000013000 seconds]
+    [Time since reference or first frame: 1614.871271000 seconds]
+    Frame Number: 1256
+    Frame Length: 27 bytes (216 bits)
+    Capture Length: 27 bytes (216 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: host]
+    [Destination: 1.93.1]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c7bb79010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x81, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0001 = Endpoint number: 1
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 0
+    [Response in: 1263]
+    [bInterfaceClass: HID (0x03)]
+
+Frame 1257: 91 bytes on wire (728 bits), 91 bytes captured (728 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:01:42.088493000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906102.088493000 seconds
+    [Time delta from previous captured frame: 1.369735000 seconds]
+    [Time delta from previous displayed frame: 1.369735000 seconds]
+    [Time since reference or first frame: 1616.241006000 seconds]
+    Frame Number: 1257
+    Frame Length: 91 bytes (728 bits)
+    Capture Length: 91 bytes (728 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb:usbhid]
+USB URB
+    [Source: host]
+    [Destination: 1.93.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c65574010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x02, Direction: OUT
+        0... .... = Direction: OUT (0)
+        .... 0010 = Endpoint number: 2
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 64
+    [Response in: 1258]
+    [bInterfaceClass: HID (0x03)]
+HID Data: 0d00000001000000000000006d65642028496e7374616e63652023312900000000000000…
+    Vendor Data: 0d
+    Vendor Data: 00
+    Padding: 000001000000000000006d65642028496e7374616e636520233129000000000000000000…
+
+Frame 1258: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:01:42.094946000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906102.094946000 seconds
+    [Time delta from previous captured frame: 0.006453000 seconds]
+    [Time delta from previous displayed frame: 0.006453000 seconds]
+    [Time since reference or first frame: 1616.247459000 seconds]
+    Frame Number: 1258
+    Frame Length: 27 bytes (216 bits)
+    Capture Length: 27 bytes (216 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: 1.93.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c65574010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x02, Direction: OUT
+        0... .... = Direction: OUT (0)
+        .... 0010 = Endpoint number: 2
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 0
+    [Request in: 1257]
+    [Time from request: 0.006453000 seconds]
+    [bInterfaceClass: HID (0x03)]
+
+Frame 1259: 91 bytes on wire (728 bits), 91 bytes captured (728 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:01:42.098670000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906102.098670000 seconds
+    [Time delta from previous captured frame: 0.003724000 seconds]
+    [Time delta from previous displayed frame: 0.003724000 seconds]
+    [Time since reference or first frame: 1616.251183000 seconds]
+    Frame Number: 1259
+    Frame Length: 91 bytes (728 bits)
+    Capture Length: 91 bytes (728 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb:usbhid]
+USB URB
+    [Source: 1.93.1]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c7225a330
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x81, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0001 = Endpoint number: 1
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 64
+    [Request in: 1242]
+    [Time from request: 1.440029000 seconds]
+    [bInterfaceClass: HID (0x03)]
+HID Data: 0d00000001000000000000006d65642028496e7374616e63652023312900000000000000…
+    Vendor Data: 0d
+    Vendor Data: 00
+    Padding: 000001000000000000006d65642028496e7374616e636520233129000000000000000000…
+
+Frame 1260: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:01:42.098681000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906102.098681000 seconds
+    [Time delta from previous captured frame: 0.000011000 seconds]
+    [Time delta from previous displayed frame: 0.000011000 seconds]
+    [Time since reference or first frame: 1616.251194000 seconds]
+    Frame Number: 1260
+    Frame Length: 27 bytes (216 bits)
+    Capture Length: 27 bytes (216 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: host]
+    [Destination: 1.93.1]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c7225a330
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x81, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0001 = Endpoint number: 1
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 0
+    [Response in: 1267]
+    [bInterfaceClass: HID (0x03)]
+
+Frame 1261: 91 bytes on wire (728 bits), 91 bytes captured (728 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:01:43.476093000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906103.476093000 seconds
+    [Time delta from previous captured frame: 1.377412000 seconds]
+    [Time delta from previous displayed frame: 1.377412000 seconds]
+    [Time since reference or first frame: 1617.628606000 seconds]
+    Frame Number: 1261
+    Frame Length: 91 bytes (728 bits)
+    Capture Length: 91 bytes (728 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb:usbhid]
+USB URB
+    [Source: host]
+    [Destination: 1.93.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c65574010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x02, Direction: OUT
+        0... .... = Direction: OUT (0)
+        .... 0010 = Endpoint number: 2
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 64
+    [Response in: 1262]
+    [bInterfaceClass: HID (0x03)]
+HID Data: 0d00000101000000000000006d65642028496e7374616e63652023312900000000000000…
+    Vendor Data: 0d
+    Vendor Data: 00
+    Padding: 000101000000000000006d65642028496e7374616e636520233129000000000000000000…
+
+Frame 1262: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:01:43.482832000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906103.482832000 seconds
+    [Time delta from previous captured frame: 0.006739000 seconds]
+    [Time delta from previous displayed frame: 0.006739000 seconds]
+    [Time since reference or first frame: 1617.635345000 seconds]
+    Frame Number: 1262
+    Frame Length: 27 bytes (216 bits)
+    Capture Length: 27 bytes (216 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: 1.93.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c65574010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x02, Direction: OUT
+        0... .... = Direction: OUT (0)
+        .... 0010 = Endpoint number: 2
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 0
+    [Request in: 1261]
+    [Time from request: 0.006739000 seconds]
+    [bInterfaceClass: HID (0x03)]
+
+Frame 1263: 91 bytes on wire (728 bits), 91 bytes captured (728 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:01:43.486595000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906103.486595000 seconds
+    [Time delta from previous captured frame: 0.003763000 seconds]
+    [Time delta from previous displayed frame: 0.003763000 seconds]
+    [Time since reference or first frame: 1617.639108000 seconds]
+    Frame Number: 1263
+    Frame Length: 91 bytes (728 bits)
+    Capture Length: 91 bytes (728 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb:usbhid]
+USB URB
+    [Source: 1.93.1]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c7bb79010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x81, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0001 = Endpoint number: 1
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 64
+    [Request in: 1256]
+    [Time from request: 2.767837000 seconds]
+    [bInterfaceClass: HID (0x03)]
+HID Data: 0d00000101000000000000006d65642028496e7374616e63652023312900000000000000…
+    Vendor Data: 0d
+    Vendor Data: 00
+    Padding: 000101000000000000006d65642028496e7374616e636520233129000000000000000000…
+
+Frame 1264: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:01:43.486606000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906103.486606000 seconds
+    [Time delta from previous captured frame: 0.000011000 seconds]
+    [Time delta from previous displayed frame: 0.000011000 seconds]
+    [Time since reference or first frame: 1617.639119000 seconds]
+    Frame Number: 1264
+    Frame Length: 27 bytes (216 bits)
+    Capture Length: 27 bytes (216 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: host]
+    [Destination: 1.93.1]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c7bb79010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x81, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0001 = Endpoint number: 1
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 0
+    [Response in: 1271]
+    [bInterfaceClass: HID (0x03)]
+
+Frame 1265: 91 bytes on wire (728 bits), 91 bytes captured (728 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:01:43.498030000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906103.498030000 seconds
+    [Time delta from previous captured frame: 0.011424000 seconds]
+    [Time delta from previous displayed frame: 0.011424000 seconds]
+    [Time since reference or first frame: 1617.650543000 seconds]
+    Frame Number: 1265
+    Frame Length: 91 bytes (728 bits)
+    Capture Length: 91 bytes (728 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb:usbhid]
+USB URB
+    [Source: host]
+    [Destination: 1.93.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c65574010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x02, Direction: OUT
+        0... .... = Direction: OUT (0)
+        .... 0010 = Endpoint number: 2
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 64
+    [Response in: 1266]
+    [bInterfaceClass: HID (0x03)]
+HID Data: 0d000002010000004a0000006d65642028496e7374616e63652023312900000000000000…
+    Vendor Data: 0d
+    Vendor Data: 00
+    Padding: 0002010000004a0000006d65642028496e7374616e636520233129000000000000000000…
+
+Frame 1266: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:01:43.502831000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906103.502831000 seconds
+    [Time delta from previous captured frame: 0.004801000 seconds]
+    [Time delta from previous displayed frame: 0.004801000 seconds]
+    [Time since reference or first frame: 1617.655344000 seconds]
+    Frame Number: 1266
+    Frame Length: 27 bytes (216 bits)
+    Capture Length: 27 bytes (216 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: 1.93.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c65574010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x02, Direction: OUT
+        0... .... = Direction: OUT (0)
+        .... 0010 = Endpoint number: 2
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 0
+    [Request in: 1265]
+    [Time from request: 0.004801000 seconds]
+    [bInterfaceClass: HID (0x03)]
+
+Frame 1267: 91 bytes on wire (728 bits), 91 bytes captured (728 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:01:43.506592000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906103.506592000 seconds
+    [Time delta from previous captured frame: 0.003761000 seconds]
+    [Time delta from previous displayed frame: 0.003761000 seconds]
+    [Time since reference or first frame: 1617.659105000 seconds]
+    Frame Number: 1267
+    Frame Length: 91 bytes (728 bits)
+    Capture Length: 91 bytes (728 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb:usbhid]
+USB URB
+    [Source: 1.93.1]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c7225a330
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x81, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0001 = Endpoint number: 1
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 64
+    [Request in: 1260]
+    [Time from request: 1.407911000 seconds]
+    [bInterfaceClass: HID (0x03)]
+HID Data: 0d000002010000004a0000006d65642028496e7374616e63652023312900000000000000…
+    Vendor Data: 0d
+    Vendor Data: 00
+    Padding: 0002010000004a0000006d65642028496e7374616e636520233129000000000000000000…
+
+Frame 1268: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:01:43.506596000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906103.506596000 seconds
+    [Time delta from previous captured frame: 0.000004000 seconds]
+    [Time delta from previous displayed frame: 0.000004000 seconds]
+    [Time since reference or first frame: 1617.659109000 seconds]
+    Frame Number: 1268
+    Frame Length: 27 bytes (216 bits)
+    Capture Length: 27 bytes (216 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: host]
+    [Destination: 1.93.1]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c7225a330
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x81, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0001 = Endpoint number: 1
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 0
+    [Response in: 1275]
+    [bInterfaceClass: HID (0x03)]
+
+Frame 1269: 91 bytes on wire (728 bits), 91 bytes captured (728 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:01:43.518546000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906103.518546000 seconds
+    [Time delta from previous captured frame: 0.011950000 seconds]
+    [Time delta from previous displayed frame: 0.011950000 seconds]
+    [Time since reference or first frame: 1617.671059000 seconds]
+    Frame Number: 1269
+    Frame Length: 91 bytes (728 bits)
+    Capture Length: 91 bytes (728 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb:usbhid]
+USB URB
+    [Source: host]
+    [Destination: 1.93.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c65574010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x02, Direction: OUT
+        0... .... = Direction: OUT (0)
+        .... 0010 = Endpoint number: 2
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 64
+    [Response in: 1270]
+    [bInterfaceClass: HID (0x03)]
+HID Data: 0d000003010000006e0000006d65642028496e7374616e63652023312900000000000000…
+    Vendor Data: 0d
+    Vendor Data: 00
+    Padding: 0003010000006e0000006d65642028496e7374616e636520233129000000000000000000…
+
+Frame 1270: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:01:43.522830000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906103.522830000 seconds
+    [Time delta from previous captured frame: 0.004284000 seconds]
+    [Time delta from previous displayed frame: 0.004284000 seconds]
+    [Time since reference or first frame: 1617.675343000 seconds]
+    Frame Number: 1270
+    Frame Length: 27 bytes (216 bits)
+    Capture Length: 27 bytes (216 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: 1.93.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c65574010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x02, Direction: OUT
+        0... .... = Direction: OUT (0)
+        .... 0010 = Endpoint number: 2
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 0
+    [Request in: 1269]
+    [Time from request: 0.004284000 seconds]
+    [bInterfaceClass: HID (0x03)]
+
+Frame 1271: 91 bytes on wire (728 bits), 91 bytes captured (728 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:01:43.526593000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906103.526593000 seconds
+    [Time delta from previous captured frame: 0.003763000 seconds]
+    [Time delta from previous displayed frame: 0.003763000 seconds]
+    [Time since reference or first frame: 1617.679106000 seconds]
+    Frame Number: 1271
+    Frame Length: 91 bytes (728 bits)
+    Capture Length: 91 bytes (728 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb:usbhid]
+USB URB
+    [Source: 1.93.1]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c7bb79010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x81, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0001 = Endpoint number: 1
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 64
+    [Request in: 1264]
+    [Time from request: 0.039987000 seconds]
+    [bInterfaceClass: HID (0x03)]
+HID Data: 0d000003010000006e0000006d65642028496e7374616e63652023312900000000000000…
+    Vendor Data: 0d
+    Vendor Data: 00
+    Padding: 0003010000006e0000006d65642028496e7374616e636520233129000000000000000000…
+
+Frame 1272: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:01:43.526596000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906103.526596000 seconds
+    [Time delta from previous captured frame: 0.000003000 seconds]
+    [Time delta from previous displayed frame: 0.000003000 seconds]
+    [Time since reference or first frame: 1617.679109000 seconds]
+    Frame Number: 1272
+    Frame Length: 27 bytes (216 bits)
+    Capture Length: 27 bytes (216 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: host]
+    [Destination: 1.93.1]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c7bb79010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x81, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0001 = Endpoint number: 1
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 0
+    [Response in: 1279]
+    [bInterfaceClass: HID (0x03)]
+
+Frame 1273: 91 bytes on wire (728 bits), 91 bytes captured (728 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:01:43.538564000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906103.538564000 seconds
+    [Time delta from previous captured frame: 0.011968000 seconds]
+    [Time delta from previous displayed frame: 0.011968000 seconds]
+    [Time since reference or first frame: 1617.691077000 seconds]
+    Frame Number: 1273
+    Frame Length: 91 bytes (728 bits)
+    Capture Length: 91 bytes (728 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb:usbhid]
+USB URB
+    [Source: host]
+    [Destination: 1.93.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c65574010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x02, Direction: OUT
+        0... .... = Direction: OUT (0)
+        .... 0010 = Endpoint number: 2
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 64
+    [Response in: 1274]
+    [bInterfaceClass: HID (0x03)]
+HID Data: 0f04000001000000020003006d65642028496e7374616e63652023312900000000000000…
+    Vendor Data: 0f
+    Vendor Data: 04
+    Padding: 000001000000020003006d65642028496e7374616e636520233129000000000000000000…
+
+Frame 1274: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:01:43.542829000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906103.542829000 seconds
+    [Time delta from previous captured frame: 0.004265000 seconds]
+    [Time delta from previous displayed frame: 0.004265000 seconds]
+    [Time since reference or first frame: 1617.695342000 seconds]
+    Frame Number: 1274
+    Frame Length: 27 bytes (216 bits)
+    Capture Length: 27 bytes (216 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: 1.93.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c65574010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x02, Direction: OUT
+        0... .... = Direction: OUT (0)
+        .... 0010 = Endpoint number: 2
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 0
+    [Request in: 1273]
+    [Time from request: 0.004265000 seconds]
+    [bInterfaceClass: HID (0x03)]
+
+Frame 1275: 91 bytes on wire (728 bits), 91 bytes captured (728 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:01:43.546590000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906103.546590000 seconds
+    [Time delta from previous captured frame: 0.003761000 seconds]
+    [Time delta from previous displayed frame: 0.003761000 seconds]
+    [Time since reference or first frame: 1617.699103000 seconds]
+    Frame Number: 1275
+    Frame Length: 91 bytes (728 bits)
+    Capture Length: 91 bytes (728 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb:usbhid]
+USB URB
+    [Source: 1.93.1]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c7225a330
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x81, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0001 = Endpoint number: 1
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 64
+    [Request in: 1268]
+    [Time from request: 0.039994000 seconds]
+    [bInterfaceClass: HID (0x03)]
+HID Data: 0f04000001000000020003006d65642028496e7374616e63652023312900000000000000…
+    Vendor Data: 0f
+    Vendor Data: 04
+    Padding: 000001000000020003006d65642028496e7374616e636520233129000000000000000000…
+
+Frame 1276: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:01:43.546592000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906103.546592000 seconds
+    [Time delta from previous captured frame: 0.000002000 seconds]
+    [Time delta from previous displayed frame: 0.000002000 seconds]
+    [Time since reference or first frame: 1617.699105000 seconds]
+    Frame Number: 1276
+    Frame Length: 27 bytes (216 bits)
+    Capture Length: 27 bytes (216 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: host]
+    [Destination: 1.93.1]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c7225a330
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x81, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0001 = Endpoint number: 1
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 0
+    [Response in: 1283]
+    [bInterfaceClass: HID (0x03)]
+
+Frame 1277: 91 bytes on wire (728 bits), 91 bytes captured (728 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:01:43.559642000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906103.559642000 seconds
+    [Time delta from previous captured frame: 0.013050000 seconds]
+    [Time delta from previous displayed frame: 0.013050000 seconds]
+    [Time since reference or first frame: 1617.712155000 seconds]
+    Frame Number: 1277
+    Frame Length: 91 bytes (728 bits)
+    Capture Length: 91 bytes (728 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb:usbhid]
+USB URB
+    [Source: host]
+    [Destination: 1.93.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c65574010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x02, Direction: OUT
+        0... .... = Direction: OUT (0)
+        .... 0010 = Endpoint number: 2
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 64
+    [Response in: 1278]
+    [bInterfaceClass: HID (0x03)]
+HID Data: 0f380010010000005331383038303330343244335800bf180d0000000f0000009793cb47…
+    Vendor Data: 0f
+    Vendor Data: 38
+    Padding: 0010010000005331383038303330343244335800bf180d0000000f0000009793cb470400…
+
+Frame 1278: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:01:43.566829000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906103.566829000 seconds
+    [Time delta from previous captured frame: 0.007187000 seconds]
+    [Time delta from previous displayed frame: 0.007187000 seconds]
+    [Time since reference or first frame: 1617.719342000 seconds]
+    Frame Number: 1278
+    Frame Length: 27 bytes (216 bits)
+    Capture Length: 27 bytes (216 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: 1.93.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c65574010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x02, Direction: OUT
+        0... .... = Direction: OUT (0)
+        .... 0010 = Endpoint number: 2
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 0
+    [Request in: 1277]
+    [Time from request: 0.007187000 seconds]
+    [bInterfaceClass: HID (0x03)]
+
+Frame 1279: 91 bytes on wire (728 bits), 91 bytes captured (728 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:01:43.570587000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906103.570587000 seconds
+    [Time delta from previous captured frame: 0.003758000 seconds]
+    [Time delta from previous displayed frame: 0.003758000 seconds]
+    [Time since reference or first frame: 1617.723100000 seconds]
+    Frame Number: 1279
+    Frame Length: 91 bytes (728 bits)
+    Capture Length: 91 bytes (728 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb:usbhid]
+USB URB
+    [Source: 1.93.1]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c7bb79010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x81, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0001 = Endpoint number: 1
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 64
+    [Request in: 1272]
+    [Time from request: 0.043991000 seconds]
+    [bInterfaceClass: HID (0x03)]
+HID Data: 0f380010010000005331383038303330343244335800bf180d0000000f0000009793cb47…
+    Vendor Data: 0f
+    Vendor Data: 38
+    Padding: 0010010000005331383038303330343244335800bf180d0000000f0000009793cb470400…
+
+Frame 1280: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:01:43.570590000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906103.570590000 seconds
+    [Time delta from previous captured frame: 0.000003000 seconds]
+    [Time delta from previous displayed frame: 0.000003000 seconds]
+    [Time since reference or first frame: 1617.723103000 seconds]
+    Frame Number: 1280
+    Frame Length: 27 bytes (216 bits)
+    Capture Length: 27 bytes (216 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: host]
+    [Destination: 1.93.1]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c7bb79010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x81, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0001 = Endpoint number: 1
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 0
+    [Response in: 1287]
+    [bInterfaceClass: HID (0x03)]
+
+Frame 1281: 91 bytes on wire (728 bits), 91 bytes captured (728 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:01:43.582554000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906103.582554000 seconds
+    [Time delta from previous captured frame: 0.011964000 seconds]
+    [Time delta from previous displayed frame: 0.011964000 seconds]
+    [Time since reference or first frame: 1617.735067000 seconds]
+    Frame Number: 1281
+    Frame Length: 91 bytes (728 bits)
+    Capture Length: 91 bytes (728 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb:usbhid]
+USB URB
+    [Source: host]
+    [Destination: 1.93.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c65574010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x02, Direction: OUT
+        0... .... = Direction: OUT (0)
+        .... 0010 = Endpoint number: 2
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 64
+    [Response in: 1282]
+    [bInterfaceClass: HID (0x03)]
+HID Data: 0f10001e010000008d9bd0505346505120202035141303ff000000000000000000000000…
+    Vendor Data: 0f
+    Vendor Data: 10
+    Padding: 001e010000008d9bd0505346505120202035141303ff0000000000000000000000000000…
+
+Frame 1282: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:01:43.586824000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906103.586824000 seconds
+    [Time delta from previous captured frame: 0.004270000 seconds]
+    [Time delta from previous displayed frame: 0.004270000 seconds]
+    [Time since reference or first frame: 1617.739337000 seconds]
+    Frame Number: 1282
+    Frame Length: 27 bytes (216 bits)
+    Capture Length: 27 bytes (216 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: 1.93.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c65574010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x02, Direction: OUT
+        0... .... = Direction: OUT (0)
+        .... 0010 = Endpoint number: 2
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 0
+    [Request in: 1281]
+    [Time from request: 0.004270000 seconds]
+    [bInterfaceClass: HID (0x03)]
+
+Frame 1283: 91 bytes on wire (728 bits), 91 bytes captured (728 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:01:43.590585000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906103.590585000 seconds
+    [Time delta from previous captured frame: 0.003761000 seconds]
+    [Time delta from previous displayed frame: 0.003761000 seconds]
+    [Time since reference or first frame: 1617.743098000 seconds]
+    Frame Number: 1283
+    Frame Length: 91 bytes (728 bits)
+    Capture Length: 91 bytes (728 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb:usbhid]
+USB URB
+    [Source: 1.93.1]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c7225a330
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x81, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0001 = Endpoint number: 1
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 64
+    [Request in: 1276]
+    [Time from request: 0.043993000 seconds]
+    [bInterfaceClass: HID (0x03)]
+HID Data: 0f10001e010000008d9bd0505346505120202035141303ff000000000000000000000000…
+    Vendor Data: 0f
+    Vendor Data: 10
+    Padding: 001e010000008d9bd0505346505120202035141303ff0000000000000000000000000000…
+
+Frame 1284: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:01:43.590593000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906103.590593000 seconds
+    [Time delta from previous captured frame: 0.000008000 seconds]
+    [Time delta from previous displayed frame: 0.000008000 seconds]
+    [Time since reference or first frame: 1617.743106000 seconds]
+    Frame Number: 1284
+    Frame Length: 27 bytes (216 bits)
+    Capture Length: 27 bytes (216 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: host]
+    [Destination: 1.93.1]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c7225a330
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x81, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0001 = Endpoint number: 1
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 0
+    [Response in: 1291]
+    [bInterfaceClass: HID (0x03)]
+
+Frame 1285: 91 bytes on wire (728 bits), 91 bytes captured (728 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:01:43.602562000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906103.602562000 seconds
+    [Time delta from previous captured frame: 0.011969000 seconds]
+    [Time delta from previous displayed frame: 0.011969000 seconds]
+    [Time since reference or first frame: 1617.755075000 seconds]
+    Frame Number: 1285
+    Frame Length: 91 bytes (728 bits)
+    Capture Length: 91 bytes (728 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb:usbhid]
+USB URB
+    [Source: host]
+    [Destination: 1.93.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c65574010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x02, Direction: OUT
+        0... .... = Direction: OUT (0)
+        .... 0010 = Endpoint number: 2
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 64
+    [Response in: 1286]
+    [bInterfaceClass: HID (0x03)]
+HID Data: 0f0400010100000071000000000000000000000000000000000000000000000000000000…
+    Vendor Data: 0f
+    Vendor Data: 04
+    Padding: 000101000000710000000000000000000000000000000000000000000000000000000000…
+
+Frame 1286: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:01:43.606824000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906103.606824000 seconds
+    [Time delta from previous captured frame: 0.004262000 seconds]
+    [Time delta from previous displayed frame: 0.004262000 seconds]
+    [Time since reference or first frame: 1617.759337000 seconds]
+    Frame Number: 1286
+    Frame Length: 27 bytes (216 bits)
+    Capture Length: 27 bytes (216 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: 1.93.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c65574010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x02, Direction: OUT
+        0... .... = Direction: OUT (0)
+        .... 0010 = Endpoint number: 2
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 0
+    [Request in: 1285]
+    [Time from request: 0.004262000 seconds]
+    [bInterfaceClass: HID (0x03)]
+
+Frame 1287: 91 bytes on wire (728 bits), 91 bytes captured (728 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:01:43.610585000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906103.610585000 seconds
+    [Time delta from previous captured frame: 0.003761000 seconds]
+    [Time delta from previous displayed frame: 0.003761000 seconds]
+    [Time since reference or first frame: 1617.763098000 seconds]
+    Frame Number: 1287
+    Frame Length: 91 bytes (728 bits)
+    Capture Length: 91 bytes (728 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb:usbhid]
+USB URB
+    [Source: 1.93.1]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c7bb79010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x81, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0001 = Endpoint number: 1
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 64
+    [Request in: 1280]
+    [Time from request: 0.039995000 seconds]
+    [bInterfaceClass: HID (0x03)]
+HID Data: 0f0400010100000071000000000000000000000000000000000000000000000000000000…
+    Vendor Data: 0f
+    Vendor Data: 04
+    Padding: 000101000000710000000000000000000000000000000000000000000000000000000000…
+
+Frame 1288: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:01:43.610594000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906103.610594000 seconds
+    [Time delta from previous captured frame: 0.000009000 seconds]
+    [Time delta from previous displayed frame: 0.000009000 seconds]
+    [Time since reference or first frame: 1617.763107000 seconds]
+    Frame Number: 1288
+    Frame Length: 27 bytes (216 bits)
+    Capture Length: 27 bytes (216 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: host]
+    [Destination: 1.93.1]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c7bb79010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x81, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0001 = Endpoint number: 1
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 0
+    [Response in: 1295]
+    [bInterfaceClass: HID (0x03)]
+
+Frame 1289: 91 bytes on wire (728 bits), 91 bytes captured (728 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:01:43.622634000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906103.622634000 seconds
+    [Time delta from previous captured frame: 0.012040000 seconds]
+    [Time delta from previous displayed frame: 0.012040000 seconds]
+    [Time since reference or first frame: 1617.775147000 seconds]
+    Frame Number: 1289
+    Frame Length: 91 bytes (728 bits)
+    Capture Length: 91 bytes (728 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb:usbhid]
+USB URB
+    [Source: host]
+    [Destination: 1.93.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c65574010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x02, Direction: OUT
+        0... .... = Direction: OUT (0)
+        .... 0010 = Endpoint number: 2
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 64
+    [Response in: 1290]
+    [bInterfaceClass: HID (0x03)]
+HID Data: 0f38000201000000312e302e3034202d2033353800000000000000000000000000000000…
+    Vendor Data: 0f
+    Vendor Data: 38
+    Padding: 000201000000312e302e3034202d20333538000000000000000000000000000000000000…
+
+Frame 1290: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:01:43.626821000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906103.626821000 seconds
+    [Time delta from previous captured frame: 0.004187000 seconds]
+    [Time delta from previous displayed frame: 0.004187000 seconds]
+    [Time since reference or first frame: 1617.779334000 seconds]
+    Frame Number: 1290
+    Frame Length: 27 bytes (216 bits)
+    Capture Length: 27 bytes (216 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: 1.93.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c65574010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x02, Direction: OUT
+        0... .... = Direction: OUT (0)
+        .... 0010 = Endpoint number: 2
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 0
+    [Request in: 1289]
+    [Time from request: 0.004187000 seconds]
+    [bInterfaceClass: HID (0x03)]
+
+Frame 1291: 91 bytes on wire (728 bits), 91 bytes captured (728 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:01:43.630586000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906103.630586000 seconds
+    [Time delta from previous captured frame: 0.003765000 seconds]
+    [Time delta from previous displayed frame: 0.003765000 seconds]
+    [Time since reference or first frame: 1617.783099000 seconds]
+    Frame Number: 1291
+    Frame Length: 91 bytes (728 bits)
+    Capture Length: 91 bytes (728 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb:usbhid]
+USB URB
+    [Source: 1.93.1]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c7225a330
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x81, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0001 = Endpoint number: 1
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 64
+    [Request in: 1284]
+    [Time from request: 0.039993000 seconds]
+    [bInterfaceClass: HID (0x03)]
+HID Data: 0f38000201000000312e302e3034202d2033353800000000000000000000000000000000…
+    Vendor Data: 0f
+    Vendor Data: 38
+    Padding: 000201000000312e302e3034202d20333538000000000000000000000000000000000000…
+
+Frame 1292: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:01:43.630594000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906103.630594000 seconds
+    [Time delta from previous captured frame: 0.000008000 seconds]
+    [Time delta from previous displayed frame: 0.000008000 seconds]
+    [Time since reference or first frame: 1617.783107000 seconds]
+    Frame Number: 1292
+    Frame Length: 27 bytes (216 bits)
+    Capture Length: 27 bytes (216 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: host]
+    [Destination: 1.93.1]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c7225a330
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x81, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0001 = Endpoint number: 1
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 0
+    [Response in: 1299]
+    [bInterfaceClass: HID (0x03)]
+
+Frame 1293: 91 bytes on wire (728 bits), 91 bytes captured (728 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:01:43.643594000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906103.643594000 seconds
+    [Time delta from previous captured frame: 0.013000000 seconds]
+    [Time delta from previous displayed frame: 0.013000000 seconds]
+    [Time since reference or first frame: 1617.796107000 seconds]
+    Frame Number: 1293
+    Frame Length: 91 bytes (728 bits)
+    Capture Length: 91 bytes (728 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb:usbhid]
+USB URB
+    [Source: host]
+    [Destination: 1.93.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c986a5010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x02, Direction: OUT
+        0... .... = Direction: OUT (0)
+        .... 0010 = Endpoint number: 2
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 64
+    [Response in: 1294]
+    [bInterfaceClass: HID (0x03)]
+HID Data: 0f3800220100000000000000000000000000000000000000000000000000000000000000…
+    Vendor Data: 0f
+    Vendor Data: 38
+    Padding: 002201000000000000000000000000000000000000000000000000000000000000000000…
+
+Frame 1294: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:01:43.650821000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906103.650821000 seconds
+    [Time delta from previous captured frame: 0.007227000 seconds]
+    [Time delta from previous displayed frame: 0.007227000 seconds]
+    [Time since reference or first frame: 1617.803334000 seconds]
+    Frame Number: 1294
+    Frame Length: 27 bytes (216 bits)
+    Capture Length: 27 bytes (216 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: 1.93.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c986a5010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x02, Direction: OUT
+        0... .... = Direction: OUT (0)
+        .... 0010 = Endpoint number: 2
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 0
+    [Request in: 1293]
+    [Time from request: 0.007227000 seconds]
+    [bInterfaceClass: HID (0x03)]
+
+Frame 1295: 91 bytes on wire (728 bits), 91 bytes captured (728 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:01:43.654585000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906103.654585000 seconds
+    [Time delta from previous captured frame: 0.003764000 seconds]
+    [Time delta from previous displayed frame: 0.003764000 seconds]
+    [Time since reference or first frame: 1617.807098000 seconds]
+    Frame Number: 1295
+    Frame Length: 91 bytes (728 bits)
+    Capture Length: 91 bytes (728 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb:usbhid]
+USB URB
+    [Source: 1.93.1]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c7bb79010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x81, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0001 = Endpoint number: 1
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 64
+    [Request in: 1288]
+    [Time from request: 0.043991000 seconds]
+    [bInterfaceClass: HID (0x03)]
+HID Data: 0f3800220100000000000000000000000000000000000000000000000000000000000000…
+    Vendor Data: 0f
+    Vendor Data: 38
+    Padding: 002201000000000000000000000000000000000000000000000000000000000000000000…
+
+Frame 1296: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:01:43.654594000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906103.654594000 seconds
+    [Time delta from previous captured frame: 0.000009000 seconds]
+    [Time delta from previous displayed frame: 0.000009000 seconds]
+    [Time since reference or first frame: 1617.807107000 seconds]
+    Frame Number: 1296
+    Frame Length: 27 bytes (216 bits)
+    Capture Length: 27 bytes (216 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: host]
+    [Destination: 1.93.1]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c7bb79010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x81, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0001 = Endpoint number: 1
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 0
+    [Response in: 1303]
+    [bInterfaceClass: HID (0x03)]
+
+Frame 1297: 91 bytes on wire (728 bits), 91 bytes captured (728 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:01:43.681645000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906103.681645000 seconds
+    [Time delta from previous captured frame: 0.027051000 seconds]
+    [Time delta from previous displayed frame: 0.027051000 seconds]
+    [Time since reference or first frame: 1617.834158000 seconds]
+    Frame Number: 1297
+    Frame Length: 91 bytes (728 bits)
+    Capture Length: 91 bytes (728 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb:usbhid]
+USB URB
+    [Source: host]
+    [Destination: 1.93.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c986a5010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x02, Direction: OUT
+        0... .... = Direction: OUT (0)
+        .... 0010 = Endpoint number: 2
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 64
+    [Response in: 1298]
+    [bInterfaceClass: HID (0x03)]
+HID Data: 0f040041010000003c3c1322000000000000000000000000000000000000000000000000…
+    Vendor Data: 0f
+    Vendor Data: 04
+    Padding: 0041010000003c3c13220000000000000000000000000000000000000000000000000000…
+
+Frame 1298: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:01:43.686821000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906103.686821000 seconds
+    [Time delta from previous captured frame: 0.005176000 seconds]
+    [Time delta from previous displayed frame: 0.005176000 seconds]
+    [Time since reference or first frame: 1617.839334000 seconds]
+    Frame Number: 1298
+    Frame Length: 27 bytes (216 bits)
+    Capture Length: 27 bytes (216 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: 1.93.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c986a5010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x02, Direction: OUT
+        0... .... = Direction: OUT (0)
+        .... 0010 = Endpoint number: 2
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 0
+    [Request in: 1297]
+    [Time from request: 0.005176000 seconds]
+    [bInterfaceClass: HID (0x03)]
+
+Frame 1299: 91 bytes on wire (728 bits), 91 bytes captured (728 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:01:43.690583000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906103.690583000 seconds
+    [Time delta from previous captured frame: 0.003762000 seconds]
+    [Time delta from previous displayed frame: 0.003762000 seconds]
+    [Time since reference or first frame: 1617.843096000 seconds]
+    Frame Number: 1299
+    Frame Length: 91 bytes (728 bits)
+    Capture Length: 91 bytes (728 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb:usbhid]
+USB URB
+    [Source: 1.93.1]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c7225a330
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x81, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0001 = Endpoint number: 1
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 64
+    [Request in: 1292]
+    [Time from request: 0.059989000 seconds]
+    [bInterfaceClass: HID (0x03)]
+HID Data: 0f04004101000000f008271a000000000000000000000000000000000000000000000000…
+    Vendor Data: 0f
+    Vendor Data: 04
+    Padding: 004101000000f008271a0000000000000000000000000000000000000000000000000000…
+
+Frame 1300: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:01:43.690595000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906103.690595000 seconds
+    [Time delta from previous captured frame: 0.000012000 seconds]
+    [Time delta from previous displayed frame: 0.000012000 seconds]
+    [Time since reference or first frame: 1617.843108000 seconds]
+    Frame Number: 1300
+    Frame Length: 27 bytes (216 bits)
+    Capture Length: 27 bytes (216 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: host]
+    [Destination: 1.93.1]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c7225a330
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x81, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0001 = Endpoint number: 1
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 0
+    [Response in: 1307]
+    [bInterfaceClass: HID (0x03)]
+
+Frame 1301: 91 bytes on wire (728 bits), 91 bytes captured (728 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:01:43.724159000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906103.724159000 seconds
+    [Time delta from previous captured frame: 0.033564000 seconds]
+    [Time delta from previous displayed frame: 0.033564000 seconds]
+    [Time since reference or first frame: 1617.876672000 seconds]
+    Frame Number: 1301
+    Frame Length: 91 bytes (728 bits)
+    Capture Length: 91 bytes (728 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb:usbhid]
+USB URB
+    [Source: host]
+    [Destination: 1.93.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c986a5010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x02, Direction: OUT
+        0... .... = Direction: OUT (0)
+        .... 0010 = Endpoint number: 2
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 64
+    [Response in: 1302]
+    [bInterfaceClass: HID (0x03)]
+HID Data: 0f10004601000000c1b33def97f425958994ae039b903f45000000000000000000000000…
+    Vendor Data: 0f
+    Vendor Data: 10
+    Padding: 004601000000c1b33def97f425958994ae039b903f450000000000000000000000000000…
+
+Frame 1302: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:01:43.730821000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906103.730821000 seconds
+    [Time delta from previous captured frame: 0.006662000 seconds]
+    [Time delta from previous displayed frame: 0.006662000 seconds]
+    [Time since reference or first frame: 1617.883334000 seconds]
+    Frame Number: 1302
+    Frame Length: 27 bytes (216 bits)
+    Capture Length: 27 bytes (216 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: 1.93.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c986a5010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x02, Direction: OUT
+        0... .... = Direction: OUT (0)
+        .... 0010 = Endpoint number: 2
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 0
+    [Request in: 1301]
+    [Time from request: 0.006662000 seconds]
+    [bInterfaceClass: HID (0x03)]
+
+Frame 1303: 91 bytes on wire (728 bits), 91 bytes captured (728 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:01:43.734584000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906103.734584000 seconds
+    [Time delta from previous captured frame: 0.003763000 seconds]
+    [Time delta from previous displayed frame: 0.003763000 seconds]
+    [Time since reference or first frame: 1617.887097000 seconds]
+    Frame Number: 1303
+    Frame Length: 91 bytes (728 bits)
+    Capture Length: 91 bytes (728 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb:usbhid]
+USB URB
+    [Source: 1.93.1]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c7bb79010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x81, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0001 = Endpoint number: 1
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 64
+    [Request in: 1296]
+    [Time from request: 0.079990000 seconds]
+    [bInterfaceClass: HID (0x03)]
+HID Data: 0f10004601000000a455a30f1b7108c8b2d6a0bcac74db64000000000000000000000000…
+    Vendor Data: 0f
+    Vendor Data: 10
+    Padding: 004601000000a455a30f1b7108c8b2d6a0bcac74db640000000000000000000000000000…
+
+Frame 1304: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:01:43.734597000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906103.734597000 seconds
+    [Time delta from previous captured frame: 0.000013000 seconds]
+    [Time delta from previous displayed frame: 0.000013000 seconds]
+    [Time since reference or first frame: 1617.887110000 seconds]
+    Frame Number: 1304
+    Frame Length: 27 bytes (216 bits)
+    Capture Length: 27 bytes (216 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: host]
+    [Destination: 1.93.1]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c7bb79010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x81, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0001 = Endpoint number: 1
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 0
+    [Response in: 1311]
+    [bInterfaceClass: HID (0x03)]
+
+Frame 1305: 91 bytes on wire (728 bits), 91 bytes captured (728 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:01:44.653956000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906104.653956000 seconds
+    [Time delta from previous captured frame: 0.919359000 seconds]
+    [Time delta from previous displayed frame: 0.919359000 seconds]
+    [Time since reference or first frame: 1618.806469000 seconds]
+    Frame Number: 1305
+    Frame Length: 91 bytes (728 bits)
+    Capture Length: 91 bytes (728 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb:usbhid]
+USB URB
+    [Source: host]
+    [Destination: 1.93.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c986a5010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x02, Direction: OUT
+        0... .... = Direction: OUT (0)
+        .... 0010 = Endpoint number: 2
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 64
+    [Response in: 1306]
+    [bInterfaceClass: HID (0x03)]
+HID Data: 012d000001000000556e6e616d65642028496e7374616e63652023312900000000000000…
+    Vendor Data: 01
+    Vendor Data: 2d
+    Padding: 000001000000556e6e616d65642028496e7374616e636520233129000000000000000000…
+
+Frame 1306: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:01:44.658766000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906104.658766000 seconds
+    [Time delta from previous captured frame: 0.004810000 seconds]
+    [Time delta from previous displayed frame: 0.004810000 seconds]
+    [Time since reference or first frame: 1618.811279000 seconds]
+    Frame Number: 1306
+    Frame Length: 27 bytes (216 bits)
+    Capture Length: 27 bytes (216 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: 1.93.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c986a5010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x02, Direction: OUT
+        0... .... = Direction: OUT (0)
+        .... 0010 = Endpoint number: 2
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 0
+    [Request in: 1305]
+    [Time from request: 0.004810000 seconds]
+    [bInterfaceClass: HID (0x03)]
+
+Frame 1307: 91 bytes on wire (728 bits), 91 bytes captured (728 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:01:44.662531000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906104.662531000 seconds
+    [Time delta from previous captured frame: 0.003765000 seconds]
+    [Time delta from previous displayed frame: 0.003765000 seconds]
+    [Time since reference or first frame: 1618.815044000 seconds]
+    Frame Number: 1307
+    Frame Length: 91 bytes (728 bits)
+    Capture Length: 91 bytes (728 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb:usbhid]
+USB URB
+    [Source: 1.93.1]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c7225a330
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x81, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0001 = Endpoint number: 1
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 64
+    [Request in: 1300]
+    [Time from request: 0.971936000 seconds]
+    [bInterfaceClass: HID (0x03)]
+HID Data: 012d000001000000556e6e616d65642028496e7374616e63652023312900000000000000…
+    Vendor Data: 01
+    Vendor Data: 2d
+    Padding: 000001000000556e6e616d65642028496e7374616e636520233129000000000000000000…
+
+Frame 1308: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:01:44.662540000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906104.662540000 seconds
+    [Time delta from previous captured frame: 0.000009000 seconds]
+    [Time delta from previous displayed frame: 0.000009000 seconds]
+    [Time since reference or first frame: 1618.815053000 seconds]
+    Frame Number: 1308
+    Frame Length: 27 bytes (216 bits)
+    Capture Length: 27 bytes (216 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: host]
+    [Destination: 1.93.1]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c7225a330
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x81, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0001 = Endpoint number: 1
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 0
+    [Response in: 1315]
+    [bInterfaceClass: HID (0x03)]
+
+Frame 1309: 91 bytes on wire (728 bits), 91 bytes captured (728 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:01:46.561716000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906106.561716000 seconds
+    [Time delta from previous captured frame: 1.899176000 seconds]
+    [Time delta from previous displayed frame: 1.899176000 seconds]
+    [Time since reference or first frame: 1620.714229000 seconds]
+    Frame Number: 1309
+    Frame Length: 91 bytes (728 bits)
+    Capture Length: 91 bytes (728 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb:usbhid]
+USB URB
+    [Source: host]
+    [Destination: 1.93.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c986a5010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x02, Direction: OUT
+        0... .... = Direction: OUT (0)
+        .... 0010 = Endpoint number: 2
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 64
+    [Response in: 1310]
+    [bInterfaceClass: HID (0x03)]
+HID Data: 012d000001000000556e6e616d65642028496e7374616e63652023312900000000000000…
+    Vendor Data: 01
+    Vendor Data: 2d
+    Padding: 000001000000556e6e616d65642028496e7374616e636520233129000000000000000000…
+
+Frame 1310: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:01:46.566674000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906106.566674000 seconds
+    [Time delta from previous captured frame: 0.004958000 seconds]
+    [Time delta from previous displayed frame: 0.004958000 seconds]
+    [Time since reference or first frame: 1620.719187000 seconds]
+    Frame Number: 1310
+    Frame Length: 27 bytes (216 bits)
+    Capture Length: 27 bytes (216 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: 1.93.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c986a5010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x02, Direction: OUT
+        0... .... = Direction: OUT (0)
+        .... 0010 = Endpoint number: 2
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 0
+    [Request in: 1309]
+    [Time from request: 0.004958000 seconds]
+    [bInterfaceClass: HID (0x03)]
+
+Frame 1311: 91 bytes on wire (728 bits), 91 bytes captured (728 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:01:46.570432000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906106.570432000 seconds
+    [Time delta from previous captured frame: 0.003758000 seconds]
+    [Time delta from previous displayed frame: 0.003758000 seconds]
+    [Time since reference or first frame: 1620.722945000 seconds]
+    Frame Number: 1311
+    Frame Length: 91 bytes (728 bits)
+    Capture Length: 91 bytes (728 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb:usbhid]
+USB URB
+    [Source: 1.93.1]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c7bb79010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x81, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0001 = Endpoint number: 1
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 64
+    [Request in: 1304]
+    [Time from request: 2.835835000 seconds]
+    [bInterfaceClass: HID (0x03)]
+HID Data: 012d000001000000556e6e616d65642028496e7374616e63652023312900000000000000…
+    Vendor Data: 01
+    Vendor Data: 2d
+    Padding: 000001000000556e6e616d65642028496e7374616e636520233129000000000000000000…
+
+Frame 1312: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:01:46.570444000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906106.570444000 seconds
+    [Time delta from previous captured frame: 0.000012000 seconds]
+    [Time delta from previous displayed frame: 0.000012000 seconds]
+    [Time since reference or first frame: 1620.722957000 seconds]
+    Frame Number: 1312
+    Frame Length: 27 bytes (216 bits)
+    Capture Length: 27 bytes (216 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: host]
+    [Destination: 1.93.1]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c7bb79010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x81, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0001 = Endpoint number: 1
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 0
+    [Response in: 1319]
+    [bInterfaceClass: HID (0x03)]
+
+Frame 1313: 91 bytes on wire (728 bits), 91 bytes captured (728 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:01:49.456096000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906109.456096000 seconds
+    [Time delta from previous captured frame: 2.885652000 seconds]
+    [Time delta from previous displayed frame: 2.885652000 seconds]
+    [Time since reference or first frame: 1623.608609000 seconds]
+    Frame Number: 1313
+    Frame Length: 91 bytes (728 bits)
+    Capture Length: 91 bytes (728 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb:usbhid]
+USB URB
+    [Source: host]
+    [Destination: 1.93.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c986a5010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x02, Direction: OUT
+        0... .... = Direction: OUT (0)
+        .... 0010 = Endpoint number: 2
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 64
+    [Response in: 1314]
+    [bInterfaceClass: HID (0x03)]
+HID Data: 012d000001000000556e6e616d65642028496e7374616e63652023312900000000000000…
+    Vendor Data: 01
+    Vendor Data: 2d
+    Padding: 000001000000556e6e616d65642028496e7374616e636520233129000000000000000000…
+
+Frame 1314: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:01:49.462512000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906109.462512000 seconds
+    [Time delta from previous captured frame: 0.006416000 seconds]
+    [Time delta from previous displayed frame: 0.006416000 seconds]
+    [Time since reference or first frame: 1623.615025000 seconds]
+    Frame Number: 1314
+    Frame Length: 27 bytes (216 bits)
+    Capture Length: 27 bytes (216 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: 1.93.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c986a5010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x02, Direction: OUT
+        0... .... = Direction: OUT (0)
+        .... 0010 = Endpoint number: 2
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 0
+    [Request in: 1313]
+    [Time from request: 0.006416000 seconds]
+    [bInterfaceClass: HID (0x03)]
+
+Frame 1315: 91 bytes on wire (728 bits), 91 bytes captured (728 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:01:49.466276000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906109.466276000 seconds
+    [Time delta from previous captured frame: 0.003764000 seconds]
+    [Time delta from previous displayed frame: 0.003764000 seconds]
+    [Time since reference or first frame: 1623.618789000 seconds]
+    Frame Number: 1315
+    Frame Length: 91 bytes (728 bits)
+    Capture Length: 91 bytes (728 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb:usbhid]
+USB URB
+    [Source: 1.93.1]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c7225a330
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x81, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0001 = Endpoint number: 1
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 64
+    [Request in: 1308]
+    [Time from request: 4.803736000 seconds]
+    [bInterfaceClass: HID (0x03)]
+HID Data: 012d000001000000556e6e616d65642028496e7374616e63652023312900000000000000…
+    Vendor Data: 01
+    Vendor Data: 2d
+    Padding: 000001000000556e6e616d65642028496e7374616e636520233129000000000000000000…
+
+Frame 1316: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:01:49.466286000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906109.466286000 seconds
+    [Time delta from previous captured frame: 0.000010000 seconds]
+    [Time delta from previous displayed frame: 0.000010000 seconds]
+    [Time since reference or first frame: 1623.618799000 seconds]
+    Frame Number: 1316
+    Frame Length: 27 bytes (216 bits)
+    Capture Length: 27 bytes (216 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: host]
+    [Destination: 1.93.1]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c7225a330
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x81, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0001 = Endpoint number: 1
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 0
+    [Response in: 1323]
+    [bInterfaceClass: HID (0x03)]
+
+Frame 1317: 91 bytes on wire (728 bits), 91 bytes captured (728 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:01:52.462270000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906112.462270000 seconds
+    [Time delta from previous captured frame: 2.995984000 seconds]
+    [Time delta from previous displayed frame: 2.995984000 seconds]
+    [Time since reference or first frame: 1626.614783000 seconds]
+    Frame Number: 1317
+    Frame Length: 91 bytes (728 bits)
+    Capture Length: 91 bytes (728 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb:usbhid]
+USB URB
+    [Source: host]
+    [Destination: 1.93.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c65574010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x02, Direction: OUT
+        0... .... = Direction: OUT (0)
+        .... 0010 = Endpoint number: 2
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 64
+    [Response in: 1318]
+    [bInterfaceClass: HID (0x03)]
+HID Data: 012d000001000000556e6e616d65642028496e7374616e63652023312900000000000000…
+    Vendor Data: 01
+    Vendor Data: 2d
+    Padding: 000001000000556e6e616d65642028496e7374616e636520233129000000000000000000…
+
+Frame 1318: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:01:52.466349000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906112.466349000 seconds
+    [Time delta from previous captured frame: 0.004079000 seconds]
+    [Time delta from previous displayed frame: 0.004079000 seconds]
+    [Time since reference or first frame: 1626.618862000 seconds]
+    Frame Number: 1318
+    Frame Length: 27 bytes (216 bits)
+    Capture Length: 27 bytes (216 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: 1.93.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c65574010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x02, Direction: OUT
+        0... .... = Direction: OUT (0)
+        .... 0010 = Endpoint number: 2
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 0
+    [Request in: 1317]
+    [Time from request: 0.004079000 seconds]
+    [bInterfaceClass: HID (0x03)]
+
+Frame 1319: 91 bytes on wire (728 bits), 91 bytes captured (728 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:01:52.470115000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906112.470115000 seconds
+    [Time delta from previous captured frame: 0.003766000 seconds]
+    [Time delta from previous displayed frame: 0.003766000 seconds]
+    [Time since reference or first frame: 1626.622628000 seconds]
+    Frame Number: 1319
+    Frame Length: 91 bytes (728 bits)
+    Capture Length: 91 bytes (728 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb:usbhid]
+USB URB
+    [Source: 1.93.1]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c7bb79010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x81, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0001 = Endpoint number: 1
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 64
+    [Request in: 1312]
+    [Time from request: 5.899671000 seconds]
+    [bInterfaceClass: HID (0x03)]
+HID Data: 012d000001000000556e6e616d65642028496e7374616e63652023312900000000000000…
+    Vendor Data: 01
+    Vendor Data: 2d
+    Padding: 000001000000556e6e616d65642028496e7374616e636520233129000000000000000000…
+
+Frame 1320: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:01:52.470123000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906112.470123000 seconds
+    [Time delta from previous captured frame: 0.000008000 seconds]
+    [Time delta from previous displayed frame: 0.000008000 seconds]
+    [Time since reference or first frame: 1626.622636000 seconds]
+    Frame Number: 1320
+    Frame Length: 27 bytes (216 bits)
+    Capture Length: 27 bytes (216 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: host]
+    [Destination: 1.93.1]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c7bb79010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x81, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0001 = Endpoint number: 1
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 0
+    [Response in: 1327]
+    [bInterfaceClass: HID (0x03)]
+
+Frame 1321: 91 bytes on wire (728 bits), 91 bytes captured (728 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:01:55.467713000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906115.467713000 seconds
+    [Time delta from previous captured frame: 2.997590000 seconds]
+    [Time delta from previous displayed frame: 2.997590000 seconds]
+    [Time since reference or first frame: 1629.620226000 seconds]
+    Frame Number: 1321
+    Frame Length: 91 bytes (728 bits)
+    Capture Length: 91 bytes (728 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb:usbhid]
+USB URB
+    [Source: host]
+    [Destination: 1.93.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c65574010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x02, Direction: OUT
+        0... .... = Direction: OUT (0)
+        .... 0010 = Endpoint number: 2
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 64
+    [Response in: 1322]
+    [bInterfaceClass: HID (0x03)]
+HID Data: 012d000001000000556e6e616d65642028496e7374616e63652023312900000000000000…
+    Vendor Data: 01
+    Vendor Data: 2d
+    Padding: 000001000000556e6e616d65642028496e7374616e636520233129000000000000000000…
+
+Frame 1322: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:01:55.474189000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906115.474189000 seconds
+    [Time delta from previous captured frame: 0.006476000 seconds]
+    [Time delta from previous displayed frame: 0.006476000 seconds]
+    [Time since reference or first frame: 1629.626702000 seconds]
+    Frame Number: 1322
+    Frame Length: 27 bytes (216 bits)
+    Capture Length: 27 bytes (216 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: 1.93.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c65574010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x02, Direction: OUT
+        0... .... = Direction: OUT (0)
+        .... 0010 = Endpoint number: 2
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 0
+    [Request in: 1321]
+    [Time from request: 0.006476000 seconds]
+    [bInterfaceClass: HID (0x03)]
+
+Frame 1323: 91 bytes on wire (728 bits), 91 bytes captured (728 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:01:55.477957000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906115.477957000 seconds
+    [Time delta from previous captured frame: 0.003768000 seconds]
+    [Time delta from previous displayed frame: 0.003768000 seconds]
+    [Time since reference or first frame: 1629.630470000 seconds]
+    Frame Number: 1323
+    Frame Length: 91 bytes (728 bits)
+    Capture Length: 91 bytes (728 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb:usbhid]
+USB URB
+    [Source: 1.93.1]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c7225a330
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x81, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0001 = Endpoint number: 1
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 64
+    [Request in: 1316]
+    [Time from request: 6.011671000 seconds]
+    [bInterfaceClass: HID (0x03)]
+HID Data: 012d000001000000556e6e616d65642028496e7374616e63652023312900000000000000…
+    Vendor Data: 01
+    Vendor Data: 2d
+    Padding: 000001000000556e6e616d65642028496e7374616e636520233129000000000000000000…
+
+Frame 1324: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:01:55.477969000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906115.477969000 seconds
+    [Time delta from previous captured frame: 0.000012000 seconds]
+    [Time delta from previous displayed frame: 0.000012000 seconds]
+    [Time since reference or first frame: 1629.630482000 seconds]
+    Frame Number: 1324
+    Frame Length: 27 bytes (216 bits)
+    Capture Length: 27 bytes (216 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: host]
+    [Destination: 1.93.1]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c7225a330
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x81, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0001 = Endpoint number: 1
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 0
+    [Response in: 1331]
+    [bInterfaceClass: HID (0x03)]
+
+Frame 1325: 91 bytes on wire (728 bits), 91 bytes captured (728 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:01:58.478162000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906118.478162000 seconds
+    [Time delta from previous captured frame: 3.000193000 seconds]
+    [Time delta from previous displayed frame: 3.000193000 seconds]
+    [Time since reference or first frame: 1632.630675000 seconds]
+    Frame Number: 1325
+    Frame Length: 91 bytes (728 bits)
+    Capture Length: 91 bytes (728 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb:usbhid]
+USB URB
+    [Source: host]
+    [Destination: 1.93.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c986a5010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x02, Direction: OUT
+        0... .... = Direction: OUT (0)
+        .... 0010 = Endpoint number: 2
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 64
+    [Response in: 1326]
+    [bInterfaceClass: HID (0x03)]
+HID Data: 012d000001000000556e6e616d65642028496e7374616e63652023312900000000000000…
+    Vendor Data: 01
+    Vendor Data: 2d
+    Padding: 000001000000556e6e616d65642028496e7374616e636520233129000000000000000000…
+
+Frame 1326: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:01:58.486030000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906118.486030000 seconds
+    [Time delta from previous captured frame: 0.007868000 seconds]
+    [Time delta from previous displayed frame: 0.007868000 seconds]
+    [Time since reference or first frame: 1632.638543000 seconds]
+    Frame Number: 1326
+    Frame Length: 27 bytes (216 bits)
+    Capture Length: 27 bytes (216 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: 1.93.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c986a5010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x02, Direction: OUT
+        0... .... = Direction: OUT (0)
+        .... 0010 = Endpoint number: 2
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 0
+    [Request in: 1325]
+    [Time from request: 0.007868000 seconds]
+    [bInterfaceClass: HID (0x03)]
+
+Frame 1327: 91 bytes on wire (728 bits), 91 bytes captured (728 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:01:58.489796000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906118.489796000 seconds
+    [Time delta from previous captured frame: 0.003766000 seconds]
+    [Time delta from previous displayed frame: 0.003766000 seconds]
+    [Time since reference or first frame: 1632.642309000 seconds]
+    Frame Number: 1327
+    Frame Length: 91 bytes (728 bits)
+    Capture Length: 91 bytes (728 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb:usbhid]
+USB URB
+    [Source: 1.93.1]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c7bb79010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x81, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0001 = Endpoint number: 1
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 64
+    [Request in: 1320]
+    [Time from request: 6.019673000 seconds]
+    [bInterfaceClass: HID (0x03)]
+HID Data: 012d000001000000556e6e616d65642028496e7374616e63652023312900000000000000…
+    Vendor Data: 01
+    Vendor Data: 2d
+    Padding: 000001000000556e6e616d65642028496e7374616e636520233129000000000000000000…
+
+Frame 1328: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:01:58.489810000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906118.489810000 seconds
+    [Time delta from previous captured frame: 0.000014000 seconds]
+    [Time delta from previous displayed frame: 0.000014000 seconds]
+    [Time since reference or first frame: 1632.642323000 seconds]
+    Frame Number: 1328
+    Frame Length: 27 bytes (216 bits)
+    Capture Length: 27 bytes (216 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: host]
+    [Destination: 1.93.1]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c7bb79010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x81, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0001 = Endpoint number: 1
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 0
+    [Response in: 1335]
+    [bInterfaceClass: HID (0x03)]
+
+Frame 1329: 91 bytes on wire (728 bits), 91 bytes captured (728 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:02:01.489980000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906121.489980000 seconds
+    [Time delta from previous captured frame: 3.000170000 seconds]
+    [Time delta from previous displayed frame: 3.000170000 seconds]
+    [Time since reference or first frame: 1635.642493000 seconds]
+    Frame Number: 1329
+    Frame Length: 91 bytes (728 bits)
+    Capture Length: 91 bytes (728 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb:usbhid]
+USB URB
+    [Source: host]
+    [Destination: 1.93.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c65574010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x02, Direction: OUT
+        0... .... = Direction: OUT (0)
+        .... 0010 = Endpoint number: 2
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 64
+    [Response in: 1330]
+    [bInterfaceClass: HID (0x03)]
+HID Data: 012d000001000000556e6e616d65642028496e7374616e63652023312900000000000000…
+    Vendor Data: 01
+    Vendor Data: 2d
+    Padding: 000001000000556e6e616d65642028496e7374616e636520233129000000000000000000…
+
+Frame 1330: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:02:01.497872000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906121.497872000 seconds
+    [Time delta from previous captured frame: 0.007892000 seconds]
+    [Time delta from previous displayed frame: 0.007892000 seconds]
+    [Time since reference or first frame: 1635.650385000 seconds]
+    Frame Number: 1330
+    Frame Length: 27 bytes (216 bits)
+    Capture Length: 27 bytes (216 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: 1.93.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c65574010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x02, Direction: OUT
+        0... .... = Direction: OUT (0)
+        .... 0010 = Endpoint number: 2
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 0
+    [Request in: 1329]
+    [Time from request: 0.007892000 seconds]
+    [bInterfaceClass: HID (0x03)]
+
+Frame 1331: 91 bytes on wire (728 bits), 91 bytes captured (728 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:02:01.501635000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906121.501635000 seconds
+    [Time delta from previous captured frame: 0.003763000 seconds]
+    [Time delta from previous displayed frame: 0.003763000 seconds]
+    [Time since reference or first frame: 1635.654148000 seconds]
+    Frame Number: 1331
+    Frame Length: 91 bytes (728 bits)
+    Capture Length: 91 bytes (728 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb:usbhid]
+USB URB
+    [Source: 1.93.1]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c7225a330
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x81, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0001 = Endpoint number: 1
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 64
+    [Request in: 1324]
+    [Time from request: 6.023666000 seconds]
+    [bInterfaceClass: HID (0x03)]
+HID Data: 012d000001000000556e6e616d65642028496e7374616e63652023312900000000000000…
+    Vendor Data: 01
+    Vendor Data: 2d
+    Padding: 000001000000556e6e616d65642028496e7374616e636520233129000000000000000000…
+
+Frame 1332: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:02:01.501647000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906121.501647000 seconds
+    [Time delta from previous captured frame: 0.000012000 seconds]
+    [Time delta from previous displayed frame: 0.000012000 seconds]
+    [Time since reference or first frame: 1635.654160000 seconds]
+    Frame Number: 1332
+    Frame Length: 27 bytes (216 bits)
+    Capture Length: 27 bytes (216 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: host]
+    [Destination: 1.93.1]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c7225a330
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x81, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0001 = Endpoint number: 1
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 0
+    [Response in: 1339]
+    [bInterfaceClass: HID (0x03)]
+
+Frame 1333: 91 bytes on wire (728 bits), 91 bytes captured (728 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:02:04.500124000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906124.500124000 seconds
+    [Time delta from previous captured frame: 2.998477000 seconds]
+    [Time delta from previous displayed frame: 2.998477000 seconds]
+    [Time since reference or first frame: 1638.652637000 seconds]
+    Frame Number: 1333
+    Frame Length: 91 bytes (728 bits)
+    Capture Length: 91 bytes (728 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb:usbhid]
+USB URB
+    [Source: host]
+    [Destination: 1.93.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c65574010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x02, Direction: OUT
+        0... .... = Direction: OUT (0)
+        .... 0010 = Endpoint number: 2
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 64
+    [Response in: 1334]
+    [bInterfaceClass: HID (0x03)]
+HID Data: 012d000001000000556e6e616d65642028496e7374616e63652023312900000000000000…
+    Vendor Data: 01
+    Vendor Data: 2d
+    Padding: 000001000000556e6e616d65642028496e7374616e636520233129000000000000000000…
+
+Frame 1334: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:02:04.505713000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906124.505713000 seconds
+    [Time delta from previous captured frame: 0.005589000 seconds]
+    [Time delta from previous displayed frame: 0.005589000 seconds]
+    [Time since reference or first frame: 1638.658226000 seconds]
+    Frame Number: 1334
+    Frame Length: 27 bytes (216 bits)
+    Capture Length: 27 bytes (216 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: 1.93.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c65574010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x02, Direction: OUT
+        0... .... = Direction: OUT (0)
+        .... 0010 = Endpoint number: 2
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 0
+    [Request in: 1333]
+    [Time from request: 0.005589000 seconds]
+    [bInterfaceClass: HID (0x03)]
+
+Frame 1335: 91 bytes on wire (728 bits), 91 bytes captured (728 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:02:04.509474000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906124.509474000 seconds
+    [Time delta from previous captured frame: 0.003761000 seconds]
+    [Time delta from previous displayed frame: 0.003761000 seconds]
+    [Time since reference or first frame: 1638.661987000 seconds]
+    Frame Number: 1335
+    Frame Length: 91 bytes (728 bits)
+    Capture Length: 91 bytes (728 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb:usbhid]
+USB URB
+    [Source: 1.93.1]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c7bb79010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x81, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0001 = Endpoint number: 1
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 64
+    [Request in: 1328]
+    [Time from request: 6.019664000 seconds]
+    [bInterfaceClass: HID (0x03)]
+HID Data: 012d000001000000556e6e616d65642028496e7374616e63652023312900000000000000…
+    Vendor Data: 01
+    Vendor Data: 2d
+    Padding: 000001000000556e6e616d65642028496e7374616e636520233129000000000000000000…
+
+Frame 1336: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:02:04.509485000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906124.509485000 seconds
+    [Time delta from previous captured frame: 0.000011000 seconds]
+    [Time delta from previous displayed frame: 0.000011000 seconds]
+    [Time since reference or first frame: 1638.661998000 seconds]
+    Frame Number: 1336
+    Frame Length: 27 bytes (216 bits)
+    Capture Length: 27 bytes (216 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: host]
+    [Destination: 1.93.1]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c7bb79010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x81, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0001 = Endpoint number: 1
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 0
+    [Response in: 1343]
+    [bInterfaceClass: HID (0x03)]
+
+Frame 1337: 91 bytes on wire (728 bits), 91 bytes captured (728 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:02:07.508689000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906127.508689000 seconds
+    [Time delta from previous captured frame: 2.999204000 seconds]
+    [Time delta from previous displayed frame: 2.999204000 seconds]
+    [Time since reference or first frame: 1641.661202000 seconds]
+    Frame Number: 1337
+    Frame Length: 91 bytes (728 bits)
+    Capture Length: 91 bytes (728 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb:usbhid]
+USB URB
+    [Source: host]
+    [Destination: 1.93.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c65574010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x02, Direction: OUT
+        0... .... = Direction: OUT (0)
+        .... 0010 = Endpoint number: 2
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 64
+    [Response in: 1338]
+    [bInterfaceClass: HID (0x03)]
+HID Data: 012d000001000000556e6e616d65642028496e7374616e63652023312900000000000000…
+    Vendor Data: 01
+    Vendor Data: 2d
+    Padding: 000001000000556e6e616d65642028496e7374616e636520233129000000000000000000…
+
+Frame 1338: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:02:07.513549000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906127.513549000 seconds
+    [Time delta from previous captured frame: 0.004860000 seconds]
+    [Time delta from previous displayed frame: 0.004860000 seconds]
+    [Time since reference or first frame: 1641.666062000 seconds]
+    Frame Number: 1338
+    Frame Length: 27 bytes (216 bits)
+    Capture Length: 27 bytes (216 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: 1.93.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c65574010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x02, Direction: OUT
+        0... .... = Direction: OUT (0)
+        .... 0010 = Endpoint number: 2
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 0
+    [Request in: 1337]
+    [Time from request: 0.004860000 seconds]
+    [bInterfaceClass: HID (0x03)]
+
+Frame 1339: 91 bytes on wire (728 bits), 91 bytes captured (728 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:02:07.517311000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906127.517311000 seconds
+    [Time delta from previous captured frame: 0.003762000 seconds]
+    [Time delta from previous displayed frame: 0.003762000 seconds]
+    [Time since reference or first frame: 1641.669824000 seconds]
+    Frame Number: 1339
+    Frame Length: 91 bytes (728 bits)
+    Capture Length: 91 bytes (728 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb:usbhid]
+USB URB
+    [Source: 1.93.1]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c7225a330
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x81, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0001 = Endpoint number: 1
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 64
+    [Request in: 1332]
+    [Time from request: 6.015664000 seconds]
+    [bInterfaceClass: HID (0x03)]
+HID Data: 012d000001000000556e6e616d65642028496e7374616e63652023312900000000000000…
+    Vendor Data: 01
+    Vendor Data: 2d
+    Padding: 000001000000556e6e616d65642028496e7374616e636520233129000000000000000000…
+
+Frame 1340: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:02:07.517322000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906127.517322000 seconds
+    [Time delta from previous captured frame: 0.000011000 seconds]
+    [Time delta from previous displayed frame: 0.000011000 seconds]
+    [Time since reference or first frame: 1641.669835000 seconds]
+    Frame Number: 1340
+    Frame Length: 27 bytes (216 bits)
+    Capture Length: 27 bytes (216 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: host]
+    [Destination: 1.93.1]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c7225a330
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x81, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0001 = Endpoint number: 1
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 0
+    [Response in: 1347]
+    [bInterfaceClass: HID (0x03)]
+
+Frame 1341: 91 bytes on wire (728 bits), 91 bytes captured (728 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:02:10.515301000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906130.515301000 seconds
+    [Time delta from previous captured frame: 2.997979000 seconds]
+    [Time delta from previous displayed frame: 2.997979000 seconds]
+    [Time since reference or first frame: 1644.667814000 seconds]
+    Frame Number: 1341
+    Frame Length: 91 bytes (728 bits)
+    Capture Length: 91 bytes (728 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb:usbhid]
+USB URB
+    [Source: host]
+    [Destination: 1.93.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c65574010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x02, Direction: OUT
+        0... .... = Direction: OUT (0)
+        .... 0010 = Endpoint number: 2
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 64
+    [Response in: 1342]
+    [bInterfaceClass: HID (0x03)]
+HID Data: 012d000001000000556e6e616d65642028496e7374616e63652023312900000000000000…
+    Vendor Data: 01
+    Vendor Data: 2d
+    Padding: 000001000000556e6e616d65642028496e7374616e636520233129000000000000000000…
+
+Frame 1342: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:02:10.521388000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906130.521388000 seconds
+    [Time delta from previous captured frame: 0.006087000 seconds]
+    [Time delta from previous displayed frame: 0.006087000 seconds]
+    [Time since reference or first frame: 1644.673901000 seconds]
+    Frame Number: 1342
+    Frame Length: 27 bytes (216 bits)
+    Capture Length: 27 bytes (216 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: 1.93.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c65574010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x02, Direction: OUT
+        0... .... = Direction: OUT (0)
+        .... 0010 = Endpoint number: 2
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 0
+    [Request in: 1341]
+    [Time from request: 0.006087000 seconds]
+    [bInterfaceClass: HID (0x03)]
+
+Frame 1343: 91 bytes on wire (728 bits), 91 bytes captured (728 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:02:10.525154000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906130.525154000 seconds
+    [Time delta from previous captured frame: 0.003766000 seconds]
+    [Time delta from previous displayed frame: 0.003766000 seconds]
+    [Time since reference or first frame: 1644.677667000 seconds]
+    Frame Number: 1343
+    Frame Length: 91 bytes (728 bits)
+    Capture Length: 91 bytes (728 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb:usbhid]
+USB URB
+    [Source: 1.93.1]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c7bb79010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x81, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0001 = Endpoint number: 1
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 64
+    [Request in: 1336]
+    [Time from request: 6.015669000 seconds]
+    [bInterfaceClass: HID (0x03)]
+HID Data: 012d000001000000556e6e616d65642028496e7374616e63652023312900000000000000…
+    Vendor Data: 01
+    Vendor Data: 2d
+    Padding: 000001000000556e6e616d65642028496e7374616e636520233129000000000000000000…
+
+Frame 1344: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:02:10.525167000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906130.525167000 seconds
+    [Time delta from previous captured frame: 0.000013000 seconds]
+    [Time delta from previous displayed frame: 0.000013000 seconds]
+    [Time since reference or first frame: 1644.677680000 seconds]
+    Frame Number: 1344
+    Frame Length: 27 bytes (216 bits)
+    Capture Length: 27 bytes (216 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: host]
+    [Destination: 1.93.1]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c7bb79010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x81, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0001 = Endpoint number: 1
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 0
+    [Response in: 1351]
+    [bInterfaceClass: HID (0x03)]
+
+Frame 1345: 91 bytes on wire (728 bits), 91 bytes captured (728 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:02:13.524537000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906133.524537000 seconds
+    [Time delta from previous captured frame: 2.999370000 seconds]
+    [Time delta from previous displayed frame: 2.999370000 seconds]
+    [Time since reference or first frame: 1647.677050000 seconds]
+    Frame Number: 1345
+    Frame Length: 91 bytes (728 bits)
+    Capture Length: 91 bytes (728 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb:usbhid]
+USB URB
+    [Source: host]
+    [Destination: 1.93.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c65574010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x02, Direction: OUT
+        0... .... = Direction: OUT (0)
+        .... 0010 = Endpoint number: 2
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 64
+    [Response in: 1346]
+    [bInterfaceClass: HID (0x03)]
+HID Data: 012d000001000000556e6e616d65642028496e7374616e63652023312900000000000000…
+    Vendor Data: 01
+    Vendor Data: 2d
+    Padding: 000001000000556e6e616d65642028496e7374616e636520233129000000000000000000…
+
+Frame 1346: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:02:13.529228000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906133.529228000 seconds
+    [Time delta from previous captured frame: 0.004691000 seconds]
+    [Time delta from previous displayed frame: 0.004691000 seconds]
+    [Time since reference or first frame: 1647.681741000 seconds]
+    Frame Number: 1346
+    Frame Length: 27 bytes (216 bits)
+    Capture Length: 27 bytes (216 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: 1.93.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c65574010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x02, Direction: OUT
+        0... .... = Direction: OUT (0)
+        .... 0010 = Endpoint number: 2
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 0
+    [Request in: 1345]
+    [Time from request: 0.004691000 seconds]
+    [bInterfaceClass: HID (0x03)]
+
+Frame 1347: 91 bytes on wire (728 bits), 91 bytes captured (728 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:02:13.532994000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906133.532994000 seconds
+    [Time delta from previous captured frame: 0.003766000 seconds]
+    [Time delta from previous displayed frame: 0.003766000 seconds]
+    [Time since reference or first frame: 1647.685507000 seconds]
+    Frame Number: 1347
+    Frame Length: 91 bytes (728 bits)
+    Capture Length: 91 bytes (728 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb:usbhid]
+USB URB
+    [Source: 1.93.1]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c7225a330
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x81, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0001 = Endpoint number: 1
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 64
+    [Request in: 1340]
+    [Time from request: 6.015672000 seconds]
+    [bInterfaceClass: HID (0x03)]
+HID Data: 012d000001000000556e6e616d65642028496e7374616e63652023312900000000000000…
+    Vendor Data: 01
+    Vendor Data: 2d
+    Padding: 000001000000556e6e616d65642028496e7374616e636520233129000000000000000000…
+
+Frame 1348: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:02:13.533007000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906133.533007000 seconds
+    [Time delta from previous captured frame: 0.000013000 seconds]
+    [Time delta from previous displayed frame: 0.000013000 seconds]
+    [Time since reference or first frame: 1647.685520000 seconds]
+    Frame Number: 1348
+    Frame Length: 27 bytes (216 bits)
+    Capture Length: 27 bytes (216 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: host]
+    [Destination: 1.93.1]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c7225a330
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x81, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0001 = Endpoint number: 1
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 0
+    [Response in: 1355]
+    [bInterfaceClass: HID (0x03)]
+
+Frame 1349: 91 bytes on wire (728 bits), 91 bytes captured (728 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:02:16.529653000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906136.529653000 seconds
+    [Time delta from previous captured frame: 2.996646000 seconds]
+    [Time delta from previous displayed frame: 2.996646000 seconds]
+    [Time since reference or first frame: 1650.682166000 seconds]
+    Frame Number: 1349
+    Frame Length: 91 bytes (728 bits)
+    Capture Length: 91 bytes (728 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb:usbhid]
+USB URB
+    [Source: host]
+    [Destination: 1.93.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c65574010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x02, Direction: OUT
+        0... .... = Direction: OUT (0)
+        .... 0010 = Endpoint number: 2
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 64
+    [Response in: 1350]
+    [bInterfaceClass: HID (0x03)]
+HID Data: 012d000001000000556e6e616d65642028496e7374616e63652023312900000000000000…
+    Vendor Data: 01
+    Vendor Data: 2d
+    Padding: 000001000000556e6e616d65642028496e7374616e636520233129000000000000000000…
+
+Frame 1350: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:02:16.537067000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906136.537067000 seconds
+    [Time delta from previous captured frame: 0.007414000 seconds]
+    [Time delta from previous displayed frame: 0.007414000 seconds]
+    [Time since reference or first frame: 1650.689580000 seconds]
+    Frame Number: 1350
+    Frame Length: 27 bytes (216 bits)
+    Capture Length: 27 bytes (216 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: 1.93.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c65574010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x02, Direction: OUT
+        0... .... = Direction: OUT (0)
+        .... 0010 = Endpoint number: 2
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 0
+    [Request in: 1349]
+    [Time from request: 0.007414000 seconds]
+    [bInterfaceClass: HID (0x03)]
+
+Frame 1351: 91 bytes on wire (728 bits), 91 bytes captured (728 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:02:16.540831000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906136.540831000 seconds
+    [Time delta from previous captured frame: 0.003764000 seconds]
+    [Time delta from previous displayed frame: 0.003764000 seconds]
+    [Time since reference or first frame: 1650.693344000 seconds]
+    Frame Number: 1351
+    Frame Length: 91 bytes (728 bits)
+    Capture Length: 91 bytes (728 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb:usbhid]
+USB URB
+    [Source: 1.93.1]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c7bb79010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x81, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0001 = Endpoint number: 1
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 64
+    [Request in: 1344]
+    [Time from request: 6.015664000 seconds]
+    [bInterfaceClass: HID (0x03)]
+HID Data: 012d000001000000556e6e616d65642028496e7374616e63652023312900000000000000…
+    Vendor Data: 01
+    Vendor Data: 2d
+    Padding: 000001000000556e6e616d65642028496e7374616e636520233129000000000000000000…
+
+Frame 1352: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:02:16.540841000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906136.540841000 seconds
+    [Time delta from previous captured frame: 0.000010000 seconds]
+    [Time delta from previous displayed frame: 0.000010000 seconds]
+    [Time since reference or first frame: 1650.693354000 seconds]
+    Frame Number: 1352
+    Frame Length: 27 bytes (216 bits)
+    Capture Length: 27 bytes (216 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: host]
+    [Destination: 1.93.1]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c7bb79010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x81, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0001 = Endpoint number: 1
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 0
+    [Response in: 1359]
+    [bInterfaceClass: HID (0x03)]
+
+Frame 1353: 91 bytes on wire (728 bits), 91 bytes captured (728 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:02:19.540589000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906139.540589000 seconds
+    [Time delta from previous captured frame: 2.999748000 seconds]
+    [Time delta from previous displayed frame: 2.999748000 seconds]
+    [Time since reference or first frame: 1653.693102000 seconds]
+    Frame Number: 1353
+    Frame Length: 91 bytes (728 bits)
+    Capture Length: 91 bytes (728 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb:usbhid]
+USB URB
+    [Source: host]
+    [Destination: 1.93.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c65574010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x02, Direction: OUT
+        0... .... = Direction: OUT (0)
+        .... 0010 = Endpoint number: 2
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 64
+    [Response in: 1354]
+    [bInterfaceClass: HID (0x03)]
+HID Data: 012d000001000000556e6e616d65642028496e7374616e63652023312900000000000000…
+    Vendor Data: 01
+    Vendor Data: 2d
+    Padding: 000001000000556e6e616d65642028496e7374616e636520233129000000000000000000…
+
+Frame 1354: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:02:19.544906000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906139.544906000 seconds
+    [Time delta from previous captured frame: 0.004317000 seconds]
+    [Time delta from previous displayed frame: 0.004317000 seconds]
+    [Time since reference or first frame: 1653.697419000 seconds]
+    Frame Number: 1354
+    Frame Length: 27 bytes (216 bits)
+    Capture Length: 27 bytes (216 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: 1.93.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c65574010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x02, Direction: OUT
+        0... .... = Direction: OUT (0)
+        .... 0010 = Endpoint number: 2
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 0
+    [Request in: 1353]
+    [Time from request: 0.004317000 seconds]
+    [bInterfaceClass: HID (0x03)]
+
+Frame 1355: 91 bytes on wire (728 bits), 91 bytes captured (728 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:02:19.548670000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906139.548670000 seconds
+    [Time delta from previous captured frame: 0.003764000 seconds]
+    [Time delta from previous displayed frame: 0.003764000 seconds]
+    [Time since reference or first frame: 1653.701183000 seconds]
+    Frame Number: 1355
+    Frame Length: 91 bytes (728 bits)
+    Capture Length: 91 bytes (728 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb:usbhid]
+USB URB
+    [Source: 1.93.1]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c7225a330
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x81, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0001 = Endpoint number: 1
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 64
+    [Request in: 1348]
+    [Time from request: 6.015663000 seconds]
+    [bInterfaceClass: HID (0x03)]
+HID Data: 012d000001000000556e6e616d65642028496e7374616e63652023312900000000000000…
+    Vendor Data: 01
+    Vendor Data: 2d
+    Padding: 000001000000556e6e616d65642028496e7374616e636520233129000000000000000000…
+
+Frame 1356: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:02:19.548681000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906139.548681000 seconds
+    [Time delta from previous captured frame: 0.000011000 seconds]
+    [Time delta from previous displayed frame: 0.000011000 seconds]
+    [Time since reference or first frame: 1653.701194000 seconds]
+    Frame Number: 1356
+    Frame Length: 27 bytes (216 bits)
+    Capture Length: 27 bytes (216 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: host]
+    [Destination: 1.93.1]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c7225a330
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x81, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0001 = Endpoint number: 1
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 0
+    [Response in: 1361]
+    [bInterfaceClass: HID (0x03)]
+
+Frame 1357: 91 bytes on wire (728 bits), 91 bytes captured (728 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:02:22.548188000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906142.548188000 seconds
+    [Time delta from previous captured frame: 2.999507000 seconds]
+    [Time delta from previous displayed frame: 2.999507000 seconds]
+    [Time since reference or first frame: 1656.700701000 seconds]
+    Frame Number: 1357
+    Frame Length: 91 bytes (728 bits)
+    Capture Length: 91 bytes (728 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb:usbhid]
+USB URB
+    [Source: host]
+    [Destination: 1.93.2]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c65574010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x02, Direction: OUT
+        0... .... = Direction: OUT (0)
+        .... 0010 = Endpoint number: 2
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 64
+    [Response in: 1358]
+    [bInterfaceClass: HID (0x03)]
+HID Data: 012d000001000000556e6e616d65642028496e7374616e63652023312900000000000000…
+    Vendor Data: 01
+    Vendor Data: 2d
+    Padding: 000001000000556e6e616d65642028496e7374616e636520233129000000000000000000…
+
+Frame 1358: 27 bytes on wire (216 bits), 27 bytes captured (216 bits) on interface \\.\USBPcap1, id 0
+    Section number: 1
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Nov 20, 2022 02:02:22.552749000 Paris, Madrid
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1668906142.552749000 seconds
+    [Time delta from previous captured frame: 0.004561000 seconds]
+    [Time delta from previous displayed frame: 0.004561000 seconds]
+    [Time since reference or first frame: 1656.705262000 seconds]
+    Frame Number: 1358
+    Frame Length: 27 bytes (216 bits)
+    Capture Length: 27 bytes (216 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: 1.93.2]
+    [Destination: host]
+    USBPcap pseudoheader length: 27
+    IRP ID: 0xffffb08c65574010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER (0x0009)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 1
+    Device address: 93
+    Endpoint: 0x02, Direction: OUT
+        0... .... = Direction: OUT (0)
+        .... 0010 = Endpoint number: 2
+    URB transfer type: URB_INTERRUPT (0x01)
+    Packet Data Length: 0
+    [Request in: 1357]
+    [Time from request: 0.004561000 seconds]
+    [bInterfaceClass: HID (0x03)]

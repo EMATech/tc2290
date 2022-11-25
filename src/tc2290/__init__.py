@@ -3,103 +3,136 @@
 """
 TC2290-DT Reverse engineering trainer
 """
-from binascii import hexlify
+import logging
+from binascii import unhexlify
 from difflib import SequenceMatcher
-from enum import IntEnum
+from time import sleep
+from typing import Callable, Optional
 
 import hid
 
-
-class TCButtons(IntEnum):
-    """
-    Buttons are arrange by function groups from left to right in a sensible manner.
-    """
-    MODULATION_SPEED_UP = 0x6E
-    MODULATION_SPEED_DOWN = 0x6F
-    MODULATION_DEPTH_UP = 0x70
-    MODULATION_DEPTH_DOWN = 0x71
-    MODULATION_WAVE_FORM = 0x72
-    MODULATION_SELECT = 0x73
-    PAN_MOD = 0x74
-    DYN_MOD = 0x75
-    PAN_DYN_DELAY_DIRECT = 0x76
-    PAN_DYN_REVERSE = 0x77
-    DELAY_UP = 0x78
-    DELAY_DOWN = 0x79
-    DELAY_MOD = 0x7A
-    DELAY_SYNC = 0x7B
-    DELAY_LEARN = 0x7C
-    FEEDBACK_UP = 0x7D
-    FEEDBACK_DOWN = 0x7E
-    FEEDBACK_INV = 0x7F
-    FEEDBACK_SELECT = 0x80
-    PRESET_SPEC_UP = 0x81
-    PRESET_SPEC_DOWN = 0x82
-    PRESET_SPEC_DELAY = 0x83
-    PRESET_SPEC_SPEC = 0x84
-    KEYBOARD_7 = 0x85
-    KEYBOARD_8 = 0x86
-    KEYBOARD_9 = 0x87
-    KEYBOARD_4 = 0x88
-    KEYBOARD_5 = 0x89
-    KEYBOARD_6 = 0x8A
-    KEYBOARD_1 = 0x8B
-    KEYBOARD_2 = 0x8C
-    KEYBOARD_3 = 0x8D
-    KEYBOARD_0 = 0x8E
-    KEYBOARD_DOT = 0x8F
-    KEYBOARD_ENTER = 0x90
+from tc2290.protocol import Address, Command, Chunk, Data, Header, Message
+from tc2290.surface import Surface
 
 
-class TC:
-    _VID = 4640
-    _PID = 113
-    _DATA_SIZE = 64
+class TC2290:
+    _VENDOR_ID = 4640  # tc-electronic
+    _PRODUCT_ID = 113  # TC 2290
 
-    def __init__(self):
+    _logging: logging
+    _device: hid.device
+    _receive_callback: Callable[[list], None]
+
+    surface: Surface
+
+    def __init__(self, receive_callback: Optional[Callable[[list], None]] = None) -> None:
+        self._logging = logging.getLogger()
+        self._logging.setLevel(logging.DEBUG)  # FIXME: remove for production
+
+        self._receive_callback = receive_callback
+
         self._device = hid.device()
-        self._device.open(self._VID, self._PID)
+        self._device.open(self._VENDOR_ID, self._PRODUCT_ID)
         self._device.set_nonblocking(True)  # Allows polling in an infinite loop
 
-    def __del__(self):
+        self.surface = Surface()
+
+    def __del__(self) -> None:
+        self.send(Message(Header(Command.INSTANCE_STOP)))
         self._device.close()
 
-    def _read(self):
-        return self._device.read(self._DATA_SIZE)
+    def _read(self) -> list | None:
+        data = self._device.read(Message.MAX_SIZE)
+        if data:
+            logging.debug(f"<- {bytes(data).hex(' ')}")
+            # TODO: update local model
+        return data
 
-    def _write(self, data):
-        self._device.write([0x00].append(data))
+    def _write(self, data: list) -> None:
+        # TODO: update local model
+        self._device.write(data)
 
-    def poll(self):
+    def poll(self) -> None:
         data = self._read()
         if data:
-            return data
+            logging.debug(f"<- {bytes(data).hex(' ')}")
+            if self._receive_callback:
+                self._receive_callback(data)
+
+    def send(self, data: Message) -> None:
+        logging.debug(f"-> {bytes(data).hex(' ')}")
+        self._write([0x00, *data])
+
+    def sendline(self, line: str) -> None:
+        size = int(len(line) / 2)  # Hex representation uses 2 characters per byte
+        if size > Message.MAX_SIZE:
+            raise ValueError(f'Line is too long: {size} > {Message.MAX_SIZE}')
+        del size
+        self.send(Message(list(unhexlify(line))))
+
+    def wakeup(self) -> None:
+        self.send(Message(Header(Command.INSTANCE_START)))
 
     @staticmethod
-    def button(data):
-        button = None
-        byte = 8  # Byte 8 contains the button ID (With a reply starting by 0c 08 00 00 ff ff ff ff)
+    def address(data: list) -> str:
+        address = None
+        byte = 8  # Byte 8 contains the button ID (With a reply starting by 0c 08 00 00 01 00 00 00)
         try:
-            button = TCButtons(data[byte]).name
+            address = Address(data[byte]).name
         except ValueError:
             pass
-        return button
+        return address
+
+    def all(self) -> None:
+        """
+        Illuminates all controls
+        """
+        for addr in range(
+                Address(0x4B),  # We skip the first element which is brightness
+                Address(0x6D),
+                Data.MAX_CHUNKS,
+        ):
+            header = Header(Command.WRITE_REG, address=addr)
+            data = Data([Chunk([0xFF] * Chunk.SIZE)] * Data.MAX_CHUNKS)
+            message = Message(header, data)
+            self.send(message)
+
+    def fw_ver(self) -> str:
+        # FIXME: separate query from reply
+        self._device.set_nonblocking(False)
+        self.send(Message(Header(Command.READ_REG, address=0x02)))
+        version = bytes(self._read())[Header.SIZE:-1].decode('ASCII').rstrip('\x00')
+        self._device.set_nonblocking(True)
+        return version
+
+    def instance(self, instance_name='', instance_id=1):
+        instance = instance_name.encode()
+        assert (len(instance) < 43)
+        message = Message(
+            header=Header(
+                Command.INSTANCE_START,
+                data_size=len(instance),
+                instance=instance_id,
+            ),
+            data=Data(data=list(instance)),
+        )
+        self.send(message)
 
 
-class Callback:
-    def __init__(self):
+class CallbackManager:
+    def __init__(self) -> None:
         self.previous_data = []
 
     @staticmethod
-    def _hex(data):
-        return hexlify(bytes(data), ' ')
+    def _hex(data: list) -> str:
+        return bytes(data).hex(' ')
 
-    def print(self, data):
-        print(self._hex(data))
+    def print(self, data: list) -> None:
+        # print(self._hex(data))
         # print(bytes(data).decode('ASCII', errors='ignore'))  # Nothing interesting
-        print(TC.button(data))  # Button name mapping
-        a = self._hex(self.previous_data)
-        b = self._hex(data)
+        print(TC2290.address(data))  # Button name mapping
+        a = self.previous_data
+        b = data
         m = SequenceMatcher(a=a, b=b, autojunk=False)
         print(m.ratio())
         print(f'Matching: {m.find_longest_match()}')
@@ -107,12 +140,12 @@ class Callback:
 
 
 def main():
-    tc = TC()
-    callback = Callback()
+    tc = TC2290(receive_callback=CallbackManager().print)
+    print(tc.fw_ver())
+    tc.wakeup()
+    tc.all()
     while True:
-        data = tc.poll()
-        if data:
-            callback.print(data)
+        tc.poll()
 
 
 if __name__ == '__main__':

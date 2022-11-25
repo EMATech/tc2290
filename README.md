@@ -62,15 +62,15 @@ PACKET SIZE: `64` bytes
 
 - -> `[0]*64` Reset ?
 - (No reply)
-- -> `[0x00, 0x01,0x2D, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00] + 43 bytes Instance name (see below) + byte[52]=0x01`
+- -> `[0x01,0x2D, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00] + 43 bytes Instance name (see below) + byte[52]=0x01`
   Handshake?
 - <- Echoes the handshake with `byte[52]=0x02 and byte[53]=0x01`
-- -> `[0x00, 0x01,0x2D, 0x00, 0x00, 0x02]` ?
+- -> `[0x01,0x2D, 0x00, 0x00, 0x02]` ?
 - <- Also echoed
-- -> `[0x00, 0x01,0x2D, 0x00, 0x00, 0x03]`
+- -> `[0x01,0x2D, 0x00, 0x00, 0x03]`
 - <- Sends previous reply (`0x02` echo)
 
-`[0x00, 0x0F, 0x38, 0x00, 0x02, 0x01]` Seem to be the firmware version request
+`[0x0F, 0x38, 0x00, 0x02, 0x01]` Seem to be the firmware version request
 The reply is the version number in ASCII (`1.0.0.4-358`).
 Doesn't work on isolation though.
 May need the handshake first.
@@ -124,7 +124,111 @@ What an odd choice of length...
 
 ## Trainer program
 
+Python with hidapi.
+
 - Connects to the device
 - Polls data from it
   - Spits out raw messages
   - Interpret button presses
+
+
+# 2022-11-20
+
+012d000001000000556e6e616d65642028496e7374616e63652023312900000000000000
+
+Wakes the device up
+
+1138004f0100000000000000010000003f00000066000000010000000100000001000000
+
+Updates the Modulation display
+
+1138005d010000004f0000005b0000003f00000006000000010000000000000000000000
+
+Updates the Delay display
+
+110c006b0100000000000000010000000100000006000000010000000000000000000000
+
+Updates the Preset status leds
+
+
+## Display format
+
+
+### Header
+
+| 11      | 38    | 00  | 5d                     | 01        | 00  | 00  | 00  |
+|---------|-------|-----|------------------------|-----------|-----|-----|-----|
+| Command | Size? |     | Start Address (Offset) | Instance? |     |     |     |
+
+
+### Data 
+
+| 4f                | 00  | 00  | 00  | 5b                | 00  | 00  | 00  | 3f                | 00  | 00  | 00  | 06                | 00  | 00  | 00  | 01        | 00  | 00  | 00  | 00      | 00  | 00  | 00  | 00       | 00  | 00  | 00  |
+|-------------------|-----|-----|-----|-------------------|-----|-----|-----|-------------------|-----|-----|-----|-------------------|-----|-----|-----|-----------|-----|-----|-----|---------|-----|-----|-----|----------|-----|-----|-----|
+| DELAY #4 segments |     |     |     | DELAY #3 segments |     |     |     | DELAY #2 segments |     |     |     | DELAY #1 segments |     |     |     | DELAY LED |     |     |     | MOD LED |     |     |     | SYNC LED |     |     |     |
+
+
+| 01                   | 00  | 00  | 00  | FF                   | 00  | 00  | 00  | 07                    | 00  | 00  | 00  | 01         | 00  | 00  | 00  | 01                  |
+|----------------------|-----|-----|-----|----------------------|-----|-----|-----|-----------------------|-----|-----|-----|------------|-----|-----|-----|---------------------|
+| FEEDBACK #1 segments |     |     |     | FEEDBACK #2 segments |     |     |     | FEEDBACK display LEDs |     |     |     | F BACK LED |     |     |     | FEEDBACK F BACK LED |
+
+### Addresses
+
+The delimiters denote blocks that work together.
+A message not sent in sequence will reset all the elements that follow in that block. 
+
+- 0x00-0x39: ???
+- ---
+- 0x40-0x49: ???
+- 0x4A: Brightness (00: Full, 0F: Dim)
+- 0x4B: INPUT L LEDs bitmap
+- 0x4C: INPUT R LEDs bitmap
+- 0x4D: OUTPUT L LEDs bitmap
+- 0x4E: OUTPUT R LEDs bitmap
+- 0x4F: MODULATION OSC / THRESHOLD LED
+- 0x50: MODULATION RED LED LEFT OF DISPLAY
+- 0x51: MODULATION 7-segment Right digit (#2)
+- 0x52: MODULATION 7-segment Left digit (#1)
+- 0x53: MODULATION RED LEDs bitmap Right of display first col
+- 0x54: MODULATION RED LEDs bitmap Right of display second col
+- 0x55: MODULATION SPEED LED
+- 0x56: MODULATION DEPTH LED
+- 0x57: PAN-DYN PAN MOD LED
+- 0x58: PAN-DYN DYN MOD LED
+- 0x59: PAN-DYN DELAY LED
+- --
+- 0x5A: PAN-DYN DIRECT LED
+- 0x5B: PAN-DYN REVERSE LED
+- 0x5C: DELAY TIME LED
+- 0x5D: DELAY 7-segment leftmost digit (#4)
+- 0x5E: DELAY 7-segment center-left digit (#3)
+- 0x5F: DELAY 7-segment center-right digit (#2)
+- 0x60: DELAY 7-segment rightmost digit (#1)
+- 0x61: DELAY DELAY LED
+- 0x62: DELAY MOD LED
+- 0x63: DELAY SYNC LED
+- 0x64: FEEDBACK 7-segment Right digit (#2)
+- 0x65: FEEDBACK 7-segment Left digit (#1)
+- 0x66: FEEDBACK RED LEDs bitmap right of display
+- 0x67: FEEDBACK F BACK LED
+- --
+- 0x68: FEEDBACK INV LED
+- 0x69: PRESET SPEC 7-segment Right digit (#2)
+- 0x6A: PRESET SPEC 7-segment Left digit (#1)
+- 0x6B: PRESET SPEC RED LEDs bitmap right of display
+- 0x6C: PRESET SPEC PRESET LED
+- 0x6D: PRESET SPEC DELAY ON LED
+- ---
+- 0x6E-0xFF: ???
+
+
+### Data
+
+32 bits 
+
+Sent in 4 bytes little-endian (LSB first)
+
+# 2022-11-24
+
+The reset per block was because I always used the maximum size for the message.
+When sized appropriately we can update a single element without disrupting the rest.
