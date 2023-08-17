@@ -100,6 +100,20 @@ class TC2290:
             message = Message(header, data)
             self.send(message)
 
+    def none(self):
+        """
+        Turns off all controls
+        """
+        for addr in range(
+                Address(0x4B),  # We skip the first element which is brightness
+                Address(0x6D),
+                Data.MAX_CHUNKS,
+        ):
+            header = Header(Command.WRITE_REG, address=addr)
+            data = Data([Chunk([0x00] * Chunk.SIZE)] * Data.MAX_CHUNKS)
+            message = Message(header, data)
+            self.send(message)
+
     def fw_ver(self) -> str:
         # FIXME: separate query from reply
         self._device.set_nonblocking(False)
