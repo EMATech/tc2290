@@ -6,7 +6,7 @@
 """
 TC2290-DT Reverse engineered protocol
 """
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from enum import unique, IntEnum
 from typing import Sequence
 
@@ -157,17 +157,17 @@ class Chunk(Sequence):
 
 
 class DataDescriptor:
-    def __init__(self, *, default):
-        self._default = default
+    def __init__(self, *, default_factory):
+        self._default_factory = default_factory
 
     def __set_name__(self, owner, name):
         self._name = "_" + name
 
     def __get__(self, instance, owner):
         if instance is None:
-            return self._default
+            return self._default_factory
 
-        return getattr(instance, self._name, self._default)
+        return getattr(instance, self._name, self._default_factory)
 
     def __set__(self, instance, value: int | Chunk | list[int] | list[Chunk] | None):
         # Default to padding with zeroes
@@ -210,7 +210,7 @@ class Data(Sequence):
     MAX_SIZE = 56
     MAX_CHUNKS = int(MAX_SIZE / Chunk.SIZE)
 
-    data: [Chunk] = DataDescriptor(default=Chunk())
+    data: [Chunk] = DataDescriptor(default_factory=Chunk)
 
     def __len__(self) -> int:
         return len(self.data) * Chunk.SIZE
