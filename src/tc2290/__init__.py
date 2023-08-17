@@ -9,7 +9,6 @@ TC2290-DT Reverse engineering trainer
 import logging
 from binascii import unhexlify
 from difflib import SequenceMatcher
-from time import sleep
 from typing import Callable, Optional
 
 import hid
@@ -67,7 +66,7 @@ class TC2290:
         logging.debug(f"-> {bytes(data).hex(' ')}")
         self._write([0x00, *data])
 
-    def sendline(self, line: str) -> None:
+    def send_line(self, line: str) -> None:
         size = int(len(line) / 2)  # Hex representation uses 2 characters per byte
         if size > Message.MAX_SIZE:
             raise ValueError(f'Line is too long: {size} > {Message.MAX_SIZE}')
