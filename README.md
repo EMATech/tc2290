@@ -232,3 +232,7 @@ Sent in 4 bytes little-endian (LSB first)
 
 The reset per block was because I always used the maximum size for the message.
 When sized appropriately we can update a single element without disrupting the rest.
+
+# 2022-11-25
+
+- USB VID: `0x0073` = TC 8210

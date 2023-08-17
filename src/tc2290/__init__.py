@@ -19,8 +19,9 @@ from tc2290.surface import Surface
 
 
 class TC2290:
-    _VENDOR_ID = 4640  # tc-electronic
-    _PRODUCT_ID = 113  # TC 2290
+    _VENDOR_ID = 0x1220  # tc-electronic
+    _PRODUCT_ID = 0x0071  # TC 2290
+    #_PRODUCT_ID = 0x0073  # TC 8210
 
     _logging: logging
     _device: hid.device
